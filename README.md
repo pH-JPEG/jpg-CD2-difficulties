@@ -7,7 +7,7 @@ These are the "high-effort" difficulties I've created, intended to be another wa
 The main difficulties so far are:
 - [ND](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/ND.json)
   - **REQUIRES THE MORE ENEMY VARIANTS MOD BY YINNY.** This mod can be found in the [Practical DRG Discord](https://discord.gg/hFkqMXPBzA) under the modding-forum channel as its own post labeled "WIP More Enemy Variants (MEV)." Without the mod, a host cannot load the difficulty file in Custom Difficulty while some enemies are invisible to a client who joined a ND lobby without downloading MEV.
-  - The more balanced, consistent, and polished successor to Lx2 and Lx2EX which serves as an initial experiment with MEV. Features are listed [here](https://github.com/pH-JPEG/jpg-custom-difficulties/blob/main/Main%20Difficulties/ND/ND%20Features.txt).
+  - The more balanced, consistent, and polished successor to Lx2 and Lx2EX which serves as an initial experiment with MEV. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/ND%20Features.txt).
   - *Latest update:* Ported to CD2. Grabbers do not have the correct movement speed yet.
   - [NB](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/NB.json): A faster paced version of ND that only changes EnemyNormalWaveInterval and EnemyWaveInterval. Intended to give a light, Send It flavor to ND.
 
