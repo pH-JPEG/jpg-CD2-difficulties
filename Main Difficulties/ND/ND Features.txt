@@ -1,0 +1,31 @@
+The mod More Enemy Variants (MEV) by yinny is required. If you are trying to host without MEV, Custom Difficulty will not allow you to load the file. If you join a lobby with ND and you don't have MEV yourself, there will be invisible enemies.
+Whenever HP is mentioned, it's based on Hazard 6 4-player scaling. ND follows the HP scaling of Hazard 6, damage scaling of Hazard 7, and the SpeedModifier of Hazard 7. Doretta resistance is kept at 75%.
+The base file for working on this difficulty was Lx2EX. The following list states what was done to the file to create this difficulty.
+Changes/Features:
+- The Grunt Ratio, or the ratio of Grunts to HVTs should now favor Grunts by a reasonable amount. There are now significantly more frequent Grunts in waves compared to Lx2 and Lx2EX. The main goal of ND was to return to a more traditional gameplay style of dealing with high amounts of trash enemies with a decent amount of HVTs sprinkled in the mix. Lx2EX had too many HVTs which spawned too frequently resulting in a playing experience with too much chaos and bullshit, feeling disjointed as a result. To a lesser extent, Lx2 suffers from the same issue.
+- Removed weak Lacerator, Crassus Detonator, Fast Bulks, weak Nemesis, God Sentinel, God Oppressor, God Shellback, God Younglings, global Radioactive Praetorians, global Younglings, global Trawlers, and global Shellbacks.
+- You start with 10 Nitra with a Resupply Cost of 50.
+- Increased VeteranLarge chance (11.3%->30%) and MaxSpawnCount of Praetorians (0->2) with a result of increased Oppressor spawn rates. 
+- Oppressors still move at x2 speed.
+- The average EnemyDiversity of a spawn event is lower. The "reasonable" (range of 4-6) EnemyDiversity roll is more commmon (30%->40%) while the "superdiversity" roll (high EnemyDiversity roll) is less common while having a lower minimum and maximum. Superdiversity chance reduced from 33% to 23% and the range reduced from 9-12 to 7-10. The low EnemyDiversity rolls have not been changed in minimum/maximum nor chance.
+- StationaryEnemyDiversity increased (4->6).
+- FriendlyFire modifier is increased (90%->110%).
+- Sentinels have a lower MaxSpawnCount (50->30).
+- Shredders have a higher Rarity. (5.125->5.375).
+- MEV-based Change: Nexuses spawn white Slashers. These Slashers take x2.691 damage from all sources. This is about 66 HP.
+- The Grunt Ratio continued: For comparison, Grunts in ND have a Rarity of 1 and DifficultyRating of 10 while Grunts in Lx2EX have a Rarity of 3.5 and DifficultyRating of 3. Grunts are more frequent in ND, but they also aren't guaranteed to spawn in massive clumps.
+- Praetorians have a lower Rarity (5->4).
+- MEV-based Change: Exploders that spawn from Breeders or Swarmer Eggs move at x0.75 speed from x1 speed and are white. Exploders that spawn as encounters or as part of waves or swarms still move at x1.5 speed.
+- Grabbers have a lower MaxSpawnCount (3->1). These still move at x1.5 speed.
+- Swarmers have a lower Rarity (5->3.5).
+- Bulks have a lower MaxSpawnCount (3->1). These still move at x1.5 speed.
+- Stalkers have a lower MaxSpawnCount (30->5).
+- The weak Arbalest that spawns in waves takes significantly more damage (x7.45->x13.125) which gives it the HP of a Mactera Brundle. It also has a higher DifficultyRating (100->150), lower MaxSpawnCount (1->0), and lower Rarity (7->5.5). 
+- Rockpox Breeders have a lower DifficultyRating (500->200), lower Rarity (10->9), and higher SpawnAmountModifier (1->10). This means that the Rockpox Breeder is slightly more common and that it doesn't take as many points to spawn, but if it does spawn in a spawn event, it will be the only thing that spawns. It also has a lower TimeDilation (x0.5->x0.25), meaning it moves slower and spawns Septics at a slower rate.
+- Septic Spreaders from the Rockpox Breeder take x6.75 damage. This gives them the HP of a Webspitter.
+- MEV-based Change: Turbo Menace added. This is a Menace with red flashing weakpoints and a red-green gradient body. It shoots incredibly fast, but has 100 HP. The base HP of it independent of any scaling is 57.
+- Elite Guards have a higher DifficultyRating (50->90), lower MaxSpawnCount (5->1), and take less damage (x3.58->x1.396). This gives it the HP of a Menace. These no longer have the Volatile Guts effect upon dying.
+- MEV-based Change: Mini-Bulk added. This is a small Bulk that by default in MEV has a HP of 2000. The radius of the death explosion is smaller than a normal Bulk's, but the meatballs appear to fly the same distance and deal the same damage with the same radius. The AoE of the stomp is the same radius, but you need to get closer to the Mini-Bulk to activate the stomp. These don't gurgle like normal Bulks and are far steathlier. These take x3.038 damage, meaning it dies to a single ignited weakpoint VB shot from a x1 damage build.
+- MEV-based Change: Korlok Sprout added to StationaryPool. These behave identical to the Sprouts from a Tyrant Weed except for taking x1.2 damage. This is about 802 HP.
+- MEV-based Change: Single-shot Nukeballers added to StationaryPool. These are Spitballers that have their blue parts replaced with yellow. These fire a single, slow-moving, glowing red spitball projectile that explodes and leaves behind a radiation cloud. These don't carve terrain and the projectile can be shot down. Other than the projectile, these Nukeballers have the same stats and behavior as a normal Spitballer.
+- Nexuses take x3.95 damage from fire. Originally in Lx2 and Lx2EX, Nexuses took a global x2.303 damage multiplier. However, this was found to favor Cryo Bolts significantly as Cryo Bolts can both easily wipe out a Nexus and remove the challenge of its spawns upon death. With the additional damage only coming from fire now, a team will have to choose between killing Nexuses quickly with VB and dealing with their spawns or sending the Scout with Cyro Bolts to safely but slowly kill Nexuses. 
