@@ -237,7 +237,10 @@
     "Enemies": {
       "ED_CaveLeech": {
         "TimeDilation": 2,
-        "DifficultyRating": 100
+        "DifficultyRating": 100,
+        "CaveLeech": {
+          "MaxDropPlayerDuration": 10
+        }
       },
       "ED_Sentinel": {
         "Base": "ED_Spider_Tank_HeavySpawn",
