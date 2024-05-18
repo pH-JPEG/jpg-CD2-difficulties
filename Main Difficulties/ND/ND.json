@@ -1,6 +1,6 @@
 {
     "Name": "ND",
-    "Description": "CD2 version of ND. Important: Grabbers do not move at the correct speed yet. Original Description: REQUIRES MORE ENEMY VARIANTS (MEV). The relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Nexuses take x3.175->x3.95 fire damage.",
+    "Description": "CD2 version of ND. Original Description: REQUIRES MORE ENEMY VARIANTS (MEV). The relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Nexuses take x3.175->x3.95 fire damage.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -404,14 +404,15 @@
         "CanBeUsedForConstantPressure": true,
         "CanBeUsedInEncounters": true,
         "SpawnSpread": 5000,
-        "Movement": {
-          "MaxPawnSpeed": 1.5,
-          "StrafeSpeed": 1.5,
-          "MaxStrafeDistance": 1.5,
-          "AlignDirectionSpeed": 1.5,
-          "MaxAcceleration": 1.5,
-          "MaxBrakingDeceleration": 1.5,
-          "AlignToTargetMinRequiredAngle": 1.1
+        "Grabber": {
+          "WanderingSpeed": 375,
+          "WanderingAcceleration": 1500,
+          "ChaseSpeed": 1125,
+          "ChaseAcceleration": 4500,
+          "CarrySpeed":750,
+          "CarryAcceleration":4500,
+          "FleeSpeed": 1200,
+          "FleeAcceleration": 1500
         }
       },
       "ED_Mactera_TripleShooter": {
