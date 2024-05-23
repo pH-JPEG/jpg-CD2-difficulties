@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Nexuses take x3.175->x3.95 fire damage.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Canary and DreadHelper added.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -834,8 +834,82 @@
         "CanBeUsedInEncounters": true,
         "CanBeUsedForConstantPressure": false,
         "SpawnAmountModifier": 1
+      },
+      "XED_DreadHelper": {
+        "Base": "ED_Spider_ExploderTank",
+        "HealthMultiplier": 0.85,
+        "WeakpointHP": 300,
+        "MaxSpawnCount": 0,
+        "SpawnAmountModifier": 0.01,
+        "Movement": {
+          "MaxPawnSpeed": 1.5,
+          "StrafeSpeed": 1.5,
+          "MaxStrafeDistance": 1.5,
+          "AlignDirectionSpeed": 1.5,
+          "MaxAcceleration": 1.5,
+          "MaxBrakingDeceleration": 1.5,
+          "AlignToTargetMinRequiredAngle": 1.1
+        }
+      },
+      "XED_Canary": {
+        "Base": "ED_Spider_Swarmer",
+        "HealthMultiplier": 10,
+        "DifficultyRating": 10,
+        "IsBossFight": true,
+        "DisplayName": "Canary",
+        "Scale": 5,
+        "MaxSpawnCount": 0,
+        "MinSpawnCount": 0,
+        "Movement": {
+          "MaxPawnSpeed": 0.5,
+          "StrafeSpeed": 0.5,
+          "MaxStrafeDistance": 0.5,
+          "AlignDirectionSpeed": 0.5,
+          "MaxAcceleration": 0.5,
+          "MaxBrakingDeceleration": 0.5,
+          "AlignToTargetMinRequiredAngle": 1.1
+        },
+        "Resistances": {
+          "DamageMultiplier": 1
+        }
       }
     },
+    "WaveSpawners": [
+      {
+        "Enabled": {
+          "Mutate": "IfFloat",
+          "Value": {
+            "Mutate": "EnemyCount",
+            "ED": "XED_DreadHelper"
+          },
+          "<": 1,
+          "Then": {
+            "Mutate": "DuringDread"
+          },
+          "Else": false
+        },
+        "Interval": 10,
+        "Enemies": [
+          "XED_DreadHelper"
+        ],
+        "Difficulty": 250,
+        "Distance": 1750,
+        "Locations": 1
+      },
+      {
+        "Enabled": {
+             "Mutate": "DuringMission",
+             "StoppingAfter": 30
+           },
+         "Interval": 20,
+         "Enemies": [
+           "XED_Canary"
+         ],
+         "Difficulty": 10,
+         "Distance": 0,
+         "Locations": 1
+       }
+    ],
     "EscortMule": {
       "FriendlyFireModifier": 0.1,
       "BigHitDamageModifier": 0.75,
