@@ -1,0 +1,26 @@
+The mod More Enemy Variants (MEV) by yinny is required. If you are trying to host without MEV, Custom Difficulty will not allow you to load the file. If you join a lobby with Lx2EX and you don't have MEV yourself, there will be invisible enemies.
+Compared to Lx2, Lx2EX adds/changes these features:
+Bad RNG rolls for swarm/wave timers and wave sizes more common.
+Start with 40 nitra and revive with 40% HP compared to 10%. Also autoregen to 40%.
+Enemy caps changed to 90, 180, 240, 240 for 1p to 4p.
+Respawning Breeders more common.
+More Patrol Bots, Grabbers, Wardens, Shellbacks, and Septics that can spawn in a single spawn event.
+Nexuses spawn white Slashers
+Breeders, Swarmer Tunnels, and Eggs spawn white Exploders.
+Slightly more Praetorians.
+Weak Arbalest and Lacerator (about Menace HP) spawn in waves.
+Younglings, Shellbacks, and Trawlers spawn in all biomes.
+Very Rare Rockpox Breeders spawn in and spawn Septics. These take double damage and are time dilated by x0.5.
+Grabbers and Bulks move x1.5 faster
+Leeches grab at x2 speed
+Exploders move x1.5 faster
+Large, fast Bulks that move at x5 speed but take x5.1 damage (has about 1000 hp on p4 scaling)
+Weak Nemesis that sacs into dwarves to spam bombs everywhere (has Mactera Spawn HP)
+God Sentinel with x3 HP
+God Oppressor with x3 HP, doesn't inherit default Oppressor speed buff. Is red.
+Oppressors move at x2 speed
+God Shellback with x3 HP. Is red.
+Very rare God Younglings with x5 HP. Is red.
+Crassus Detonator added that moves at x1.75 speed and is immune to Electric and Corrosive damage and slowdowns. Takes x1.5 damage (therefore has similar HP to normal Bulk)
+Radioactive Praetorians can spawn anywhere.
+Weaker Elite Guards (same HP as a normal Guard) added. They have the Volatile Guts effect.
