@@ -200,13 +200,6 @@
           "max": 1
         }
       ],
-      "StationaryEnemyDiversity": [
-        {
-          "weight": 1,
-          "min": 7,
-          "max": 7
-        }
-      ],
       "VeteranNormal": [
         {
           "weight": 0.9,
@@ -289,8 +282,8 @@
         "Max": 9
       },
       "StationaryEnemyCount": {
-        "Min": 10,
-        "Max": 10
+        "Min": 7,
+        "Max": 7
       },
       "CommonEnemies": {
         "Add": [
