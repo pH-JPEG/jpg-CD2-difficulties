@@ -324,7 +324,10 @@
       "ED_CaveLeech": {
         "TimeDilation": 2,
         "DifficultyRating": 100,
-        "SpawnAmountModifier": 0.75
+        "SpawnAmountModifier": 0.75,
+        "CaveLeech": {
+            "MaxDropPlayerDuration": 10
+          }
       },
       "ED_Sentinel": {
         "Base": "ED_Spider_Tank_HeavySpawn",
