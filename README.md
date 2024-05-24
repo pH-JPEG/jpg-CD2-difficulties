@@ -8,7 +8,7 @@ The main difficulties so far are:
 - [ND](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/ND.json)
   - **REQUIRES THE MORE ENEMY VARIANTS MOD BY YINNY.** This mod can be found in the [Practical DRG Discord](https://discord.gg/hFkqMXPBzA) under the modding-forum channel as its own post labeled "WIP More Enemy Variants (MEV)." Without the mod, a host cannot load the difficulty file in Custom Difficulty while some enemies are invisible to a client who joined a ND lobby without downloading MEV.
   - Originally from CD1. The more balanced, consistent, and polished successor to Lx2 and Lx2EX which serves as an initial experiment with MEV. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/ND%20Features.txt).
-  - *Latest update:* Grabbers now have correct movement speed. Canary and DreadHelper added. 
+  - *Latest update:* Nukeballer materials updated.
   - [NB](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/NB.json): A faster paced version of ND that only changes EnemyNormalWaveInterval and EnemyWaveInterval. Intended to give a light, Send It flavor to ND.
 - [Lx2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Lx2EX/Lx2EX.json)
   - **REQUIRES THE MORE ENEMY VARIANTS MOD BY YINNY.** This mod can be found in the [Practical DRG Discord](https://discord.gg/hFkqMXPBzA) under the modding-forum channel as its own post labeled "WIP More Enemy Variants (MEV)." Without the mod, a host cannot load the difficulty file in Custom Difficulty while some enemies are invisible to a client who joined a Lx2EX lobby without downloading MEV.
