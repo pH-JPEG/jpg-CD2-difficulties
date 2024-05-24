@@ -1,6 +1,6 @@
 {
   "Name": "Lx2EX ECCOM'D",
-  "Description": "Lx2EX ECCOM'D ported to CD2. Missing features: Elite Grunts with Volatile Guts. Original Description: REQUIRES MORE ENEMY VARIANTS (MEV). Lx2EX, but modified to fit ECCOM OPERATIONAL's taste in difficulties. VEA is assumed on. Latest update: Hiveguard Sentinels no longer have SpawnSpread.",
+  "Description": "Lx2EX ECCOM'D ported to CD2. Missing features: Elite Grunts with Volatile Guts. Original Description: REQUIRES MORE ENEMY VARIANTS (MEV). Lx2EX, but modified to fit ECCOM OPERATIONAL's taste in difficulties. VEA is assumed on. Latest update: Nukeballer materials updated.",
   "Caps": {
     "MaxActiveCritters": 40,
     "MaxActiveSwarmers": [
@@ -498,7 +498,12 @@
     },
     "ED_ShootingPlant": {
       "Base": "ED_ShootingPlant_NukeEX",
-      "DifficultyRating": 300
+      "DifficultyRating": 300,
+      "Materials": [
+        "M_Donkey_NotBlinkingLight_Lit",
+        "M_Biome_RadioactiveZone_UraniumGlowing",
+        "M_Biome_RadioactiveZone_UraniumGlowing"
+      ]
     },
     "ED_Spider_ExploderTank_Fast": {
       "Base": "ED_Spider_ExploderTank_white",
@@ -874,17 +879,17 @@
     },
     {
       "Enabled": {
-           "Mutate": "DuringMission",
-           "StoppingAfter": 30
-         },
-       "Interval": 20,
-       "Enemies": [
-         "XED_Canary"
-       ],
-       "Difficulty": 10,
-       "Distance": 0,
-       "Locations": 1
-     }
+        "Mutate": "DuringMission",
+        "StoppingAfter": 30
+      },
+      "Interval": 20,
+      "Enemies": [
+        "XED_Canary"
+      ],
+      "Difficulty": 10,
+      "Distance": 0,
+      "Locations": 1
+    }
   ],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,

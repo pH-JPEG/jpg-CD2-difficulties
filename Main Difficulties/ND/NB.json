@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Canary and DreadHelper added.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Nukeballer materials updated.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -833,7 +833,12 @@
         "Rarity": 1,
         "CanBeUsedInEncounters": true,
         "CanBeUsedForConstantPressure": false,
-        "SpawnAmountModifier": 1
+        "SpawnAmountModifier": 1,
+        "Materials": [
+          "M_Parasite2_01",
+          "M_Biome_RadioactiveZone_UraniumGlowing",
+          "M_Biome_RadioactiveZone_UraniumGlowing"
+        ]
       },
       "XED_DreadHelper": {
         "Base": "ED_Spider_ExploderTank",
