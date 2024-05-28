@@ -1,0 +1,14 @@
+Resup cost of 45 nitra
+Hazard 6 hp scaling, damage, and movement speed.
+EnemyCountModifier values are 6x2 values increased by 10%
+Dotty damage resistance at 80%.
+High enemy diversity in waves
+Sentinels, Fire Bombers, and Patrol Bots spawn during waves
+Breeders can respawn and have half HP
+Nexuses spawn white grunts and take x3.95 additional damage from fire damage.
+Shockers spawn in all biomes
+Leeches grab at x1.25 speed
+Bulks follow Diablo spawn logic (can spawn multiple at a time spread throughout the map)
+Bulks move x1.35 faster
+Grabbers spawn spread out from waves
+Grunts spawn from Swarmer Tunnels and Swarmer Eggs.
