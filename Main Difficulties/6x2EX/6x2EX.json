@@ -1,6 +1,6 @@
 {
     "Name": "6x2EX",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX, a 6x2-based, more fair version of Lx2. Latest change: Ported to CD2. Nexuses take x3.175->x3.95 fire damage.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Ported to CD2. Nexuses take x3.175->x3.95 fire damage.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
