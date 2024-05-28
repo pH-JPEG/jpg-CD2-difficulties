@@ -1,6 +1,6 @@
 {
     "Name": "ND",
-    "Description": "CD2 version of ND. Original Description: REQUIRES MORE ENEMY VARIANTS (MEV). The relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Nukeballer materials updated.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Nukeballer materials updated.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
