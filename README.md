@@ -1,5 +1,5 @@
 # jpg-CD2-difficulties
- Difficulties I have created for the game Deep Rock Galactic with the Custom Difficulty 2 (CD2) mod. CD2 is not public or completed yet.
+ Difficulties I have created for the game Deep Rock Galactic with the Custom Difficulty 2 (CD2) mod. CD2 is in public beta and not completed yet.
 
 ## [Main Difficulties](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties)
 These are the "high-effort" difficulties I've created, intended to be another way to enjoy a (mostly) 6x2-esque experience in modded DRG. The list will consist of CD1 difficulties ported over to CD2 and entirely new difficulties I have created with CD2. The list is chronological with newer difficulties by date of porting or creation will be on the bottom.
