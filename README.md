@@ -26,7 +26,7 @@ The main difficulties so far are:
 - [6x2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX.json)
   - **REQUIRES THE MORE ENEMY VARIANTS MOD BY YINNY.** This mod can be found in the [Practical DRG Discord](https://discord.gg/hFkqMXPBzA) under the modding-forum channel as its own post labeled "WIP More Enemy Variants (MEV)." Without the mod, a host cannot load the difficulty file in Custom Difficulty while some enemies are invisible to a client who joined a ND lobby without downloading MEV.
   - Originally from CD1. A 6x2-based version of Lx2. Originally the more fair version of Lx2, it now serves as an entry-level difficulty for my difficulties/6x2+. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX%20Features.txt).
-  - *Latest update:* Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount 7->8.
+  - *Latest update:* Added MEVless support; without MEV, White Grunts from Nexuses, Swarmer Tunnels, and Swarmer Eggs are just normal Grunts.
 
 ## [WIP Difficulties](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/WIP%20Difficulties)
 Difficulties that are currently being tested. All versions will be uploaded to the corresponding difficulty's folder. Upon completion, all pre-release versions will be moved to the Alpha/Beta Versions folder.
