@@ -1,6 +1,6 @@
 {
     "Name": "6x2EX",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount 7->8.",
+    "Description": "MORE ENEMY VARIANTS (MEV) IS RECOMMENDED. CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Added MEVless support; without MEV, White Grunts from Nexuses, Swarmer Tunnels, and Swarmer Eggs are just normal Grunts.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -212,7 +212,15 @@
         "CanBeUsedInEncounters": true
       },
       "ED_Spider_Spawn": {
-        "Base": "ED_Spider_Grunt_white"
+        "Base": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DescriptorExists",
+            "ED": "ED_Spider_Grunt_white"
+          },
+          "Then": ["ED_Spider_Grunt_white"],
+          "Else": ["ED_Spider_Grunt"]
+        }
       },
       "ED_CaveLeech": {
         "Base": "ED_CaveLeech",
@@ -226,10 +234,26 @@
         }
       },
       "ED_EggSpider": {
-        "Base": "ED_Spider_Grunt_white"
+        "Base": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DescriptorExists",
+            "ED": "ED_Spider_Grunt_white"
+          },
+          "Then": ["ED_Spider_Grunt_white"],
+          "Else": ["ED_Spider_Grunt"]
+        }
       },
       "ED_TunnelSwarmer": {
-        "Base": "ED_Spider_Grunt_white"
+        "Base": {
+          "Mutate": "If",
+          "Condition": {
+            "Mutate": "DescriptorExists",
+            "ED": "ED_Spider_Grunt_white"
+          },
+          "Then": ["ED_Spider_Grunt_white"],
+          "Else": ["ED_Spider_Grunt"]
+        }
       },
       "ED_Spider_Grunt": {
         "Base": "ED_Spider_Grunt",
