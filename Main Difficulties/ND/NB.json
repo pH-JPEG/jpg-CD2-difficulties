@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Nukeballer materials updated.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 6->8. DisruptiveEnemyPoolCount 9->10.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -139,8 +139,8 @@
       "StationaryEnemyDiversity": [
         {
           "weight": 1,
-          "min": 6,
-          "max": 6
+          "min": 8,
+          "max": 8
         }
       ],
       "VeteranNormal": [
@@ -175,8 +175,8 @@
     "Pools": {
       "MinPoolSize": 50,
       "DisruptiveEnemyPoolCount": {
-        "Min": 9,
-        "Max": 9
+        "Min": 10,
+        "Max": 10
       },
       "StationaryEnemyCount": {
         "Min": 10,

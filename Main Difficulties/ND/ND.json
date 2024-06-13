@@ -1,6 +1,6 @@
 {
     "Name": "ND",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Nukeballer materials updated.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 6->8. DisruptiveEnemyPoolCount 9->10.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -164,8 +164,8 @@
       "StationaryEnemyDiversity": [
         {
           "weight": 1,
-          "min": 6,
-          "max": 6
+          "min": 8,
+          "max": 8
         }
       ],
       "VeteranNormal": [
@@ -200,12 +200,12 @@
     "Pools": {
       "MinPoolSize": 50,
       "DisruptiveEnemyPoolCount": {
-        "Min": 9,
-        "Max": 9
-      },
-      "StationaryEnemyCount": {
         "Min": 10,
         "Max": 10
+      },
+      "StationaryEnemyCount": {
+        "Min": 8,
+        "Max": 8
       },
       "CommonEnemies": {
         "Add": [

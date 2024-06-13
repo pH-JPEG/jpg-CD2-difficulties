@@ -1,6 +1,6 @@
 {
     "Name": "Lx2",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of Lx2, or Lunatic. The original cave madness difficulty. Latest update: Ported to CD2.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of Lx2, or Lunatic. The original cave madness difficulty. Latest update: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount 9->10.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -153,8 +153,8 @@
       "StationaryEnemyDiversity": [
         {
           "weight": 1,
-          "min": 4,
-          "max": 4
+          "min": 6,
+          "max": 6
         }
       ],
       "VeteranNormal": [
@@ -189,12 +189,12 @@
     "Pools": {
       "MinPoolSize": 30,
       "DisruptiveEnemyPoolCount": {
-        "min": 9,
-        "max": 9
+        "min": 10,
+        "max": 10
       },
       "StationaryEnemyCount": {
-        "Min": 4,
-        "Max": 4
+        "Min": 6,
+        "Max": 6
       },
       "CommonEnemies": {
         "Add": [

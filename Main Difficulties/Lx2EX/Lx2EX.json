@@ -1,6 +1,6 @@
 {
     "Name": "Lx2EX",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of Lx2EX, (Lunatic-Extra). Cave madness is all you've seen lately. Latest update: Ported to CD2. Includes Canary for checking client sync, DreadHelper to speed up Elimination missions, and Cave Leech safety net so that players don't die from a Cave Leech after being freed.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of Lx2EX, (Lunatic-Extra). Cave madness is all you've seen lately. Latest update: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 6->8. DisruptiveEnemyPoolCount 9->10.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -163,6 +163,13 @@
           "max": 1
         }
       ],
+      "StationaryEnemyDiversity": [
+        {
+          "weight": 1,
+          "min": 8,
+          "max": 8
+        }
+      ],
       "VeteranNormal": [
         {
           "weight": 0.9,
@@ -195,12 +202,12 @@
     "Pools": {
       "MinPoolSize": 50,
       "StationaryEnemyCount": {
-        "min": 4,
-        "max": 4
+        "min": 8,
+        "max": 8
       },
       "DisruptiveEnemyPoolCount": {
-        "min": 9,
-        "max": 9
+        "min": 10,
+        "max": 10
       },
       "EnemyPool": {
         "clear": false,

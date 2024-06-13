@@ -1,6 +1,6 @@
 {
     "Name": "Send It! Classic",
-    "Description": "CD2 port of Send It with no new CD2 features that make it easier. Latest update: Ported to CD2.",
+    "Description": "CD2 port of Send It with no new CD2 features that make it easier. Latest update: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount max 7->8. MinPoolSize 14->15.",
     "Caps": {
       "MaxActiveCritters": 90,
       "MaxActiveSwarmers": 120,
@@ -118,8 +118,8 @@
       "StationaryEnemyDiversity": [
         {
           "weight": 1,
-          "min": 4,
-          "max": 4
+          "min": 6,
+          "max": 6
         }
       ],
       "VeteranNormal": [
@@ -147,14 +147,14 @@
       "ReviveHealthRatio": 0.1
     },
     "Pools": {
-      "MinPoolSize": 14,
+      "MinPoolSize": 15,
       "DisruptiveEnemyPoolCount": {
         "min": 4,
-        "max": 7
+        "max": 8
       },
       "StationaryEnemyCount": {
-        "Min": 4,
-        "Max": 4
+        "Min": 6,
+        "Max": 6
       }
     },
     "EscortMule": {
