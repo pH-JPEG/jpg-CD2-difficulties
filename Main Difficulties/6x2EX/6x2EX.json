@@ -1,6 +1,6 @@
 {
     "Name": "6x2EX",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount 7->8.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Global shockers removed. Grabber MaxSpawnCount 2->0.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -161,8 +161,7 @@
           "ED_Sentinel",
           "ED_Bomber_Explosive",
           "ED_JellyBreeder_Swarm",
-          "ED_PatrolBot",
-          "ED_Jelly_Swarmer"
+          "ED_PatrolBot"
         ]
       }
     },
@@ -294,7 +293,7 @@
         "Base": "ED_Grabber",
         "DifficultyRating": 90,
         "MinSpawnCount": 1,
-        "MaxSpawnCount": 2,
+        "MaxSpawnCount": 0,
         "Rarity": 5.5,
         "CanBeUsedForConstantPressure": true,
         "CanBeUsedInEncounters": true,
