@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 6->8. DisruptiveEnemyPoolCount 9->10.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Global shockers and shredders removed.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -187,7 +187,6 @@
           "ED_Sentinel",
           "ED_Bomber_Explosive",
           "ED_JellyBreeder_Swarm",
-          "ED_Jelly_Swarmer",
           "ED_Spider_Stalker",
           "ED_Spider_Grunt_Guard_Elite",
           "ED_JellyBreeder_RockpoxPlague",
@@ -198,8 +197,7 @@
       },
       "DisruptiveEnemies": {
         "Add": [
-          "ED_PatrolBot",
-          "ED_Shredder"
+          "ED_PatrolBot"
         ]
       },
       "StationaryPool": {
