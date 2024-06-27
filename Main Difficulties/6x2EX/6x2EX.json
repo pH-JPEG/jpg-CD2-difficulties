@@ -1,6 +1,6 @@
 {
     "Name": "6x2EX",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Added Leech safety net such that you won't die from fall damage if dropped by one from high up.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: ReviveHealthRatio 0.1->0.4, HealthRegenerationMax 0.1->0.4.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -143,8 +143,8 @@
       "SpeedModifier": 1.25,
       "AttackCooldownModifier": 1.75,
       "ProjectileSpeedModifier": 1.9,
-      "HealthRegenerationMax": 0.1,
-      "ReviveHealthRatio": 0.1
+      "HealthRegenerationMax": 0.4,
+      "ReviveHealthRatio": 0.4
     },
     "Pools": {
       "MinPoolSize": 30,
