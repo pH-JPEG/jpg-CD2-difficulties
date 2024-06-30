@@ -1,7 +1,6 @@
 {
   "Name": "6x2EX",
   "Description": "CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: No longer requires MEV. Nexus, SwarmerTunnel, and SwarmerEgg Grunts all use CD2 for differentiating materials now.",
-  "Darkness": {},
   "Caps": {
     "MaxActiveCritters": 40,
     "MaxActiveSwarmers": [
