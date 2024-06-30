@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Global shockers and shredders removed.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Stalker MaxSpawnCount 5->1, are now stunnable.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -654,18 +654,13 @@
         "DifficultyRating": 90,
         "Rarity": 5.25,
         "MinSpawnCount": 1,
-        "MaxSpawnCount": 5,
+        "MaxSpawnCount": 1,
         "SpawnAmountModifier": 1,
         "CanBeUsedForConstantPressure": true,
         "CanBeUsedInEncounters": true,
         "SpawnSpread": 5000,
-        "Movement": {
-          "MaxPawnSpeed": 1,
-          "AlignDirectionSpeed": 1.35,
-          "MaxAcceleration": 1.35,
-          "MaxBrakingDeceleration": 1.35,
-          "AlignToTargetMinRequiredAngle": 1.1
-        }
+       "StaggerImmunityWindow": 0,
+        "StaggerDurationMultiplier": 1
       },
       "ED_PlagueLarva": {
         "Base": "ED_Spider_Lobber",

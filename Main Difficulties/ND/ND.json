@@ -1,6 +1,6 @@
 {
     "Name": "ND",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Global shockers and shredders removed.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: Stalker MaxSpawnCount 5->1, are now stunnable.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -514,11 +514,13 @@
         "DifficultyRating": 90,
         "Rarity": 5.25,
         "MinSpawnCount": 1,
-        "MaxSpawnCount": 5,
+        "MaxSpawnCount": 1,
         "SpawnAmountModifier": 1,
         "CanBeUsedForConstantPressure": true,
         "CanBeUsedInEncounters": true,
-        "SpawnSpread": 5000
+        "SpawnSpread": 5000,
+        "StaggerImmunityWindow": 0,
+        "StaggerDurationMultiplier": 1
       },
       "ED_PlagueLarva": {
         "Base": "ED_Spider_Lobber",
