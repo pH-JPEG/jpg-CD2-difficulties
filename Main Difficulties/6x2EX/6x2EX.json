@@ -213,6 +213,7 @@
     },
     "ED_Spider_Spawn": {
       "Base": "ED_Spider_Grunt",
+      "DisplayName": "Glyphid Nexus Grunt",
       "Materials": [
         "M_Bosco_PJ_CorporateMint",
         "M_Refrigerator_Chrome"
@@ -234,6 +235,7 @@
     },
     "ED_EggSpider": {
       "Base": "ED_Spider_Grunt",
+      "DisplayName": "Glyphid Egg Grunt",
       "Materials": [
         "M_Bosco_PJ_CorporateMint",
         "M_Refrigerator_Chrome"
@@ -241,6 +243,7 @@
     },
     "ED_TunnelSwarmer": {
       "Base": "ED_Spider_Grunt",
+      "DisplayName": "Glyphid Tunnel Grunt",
       "Materials": [
         "M_Bosco_PJ_CorporateMint",
         "M_Refrigerator_Chrome"
