@@ -1,6 +1,6 @@
 {
     "Name": "Lx2EX",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of Lx2EX, (Lunatic-Extra). Cave madness is all you've seen lately. Latest update: Alphabetized EnemyDescriptors.",
+    "Description": "CD2 version of Lx2EX, (Lunatic-Extra). Cave madness is all you've seen lately. Latest update: Alphabetized EnemyDescriptors.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [

@@ -1,6 +1,6 @@
 {
     "Name": "Lx2",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of Lx2, or Lunatic. The original cave madness difficulty. Latest update: Alphabetized EnemyDescriptors.",
+    "Description": "CD2 port of Lx2, or Lunatic. The original cave madness difficulty. Latest update: Alphabetized EnemyDescriptors.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [

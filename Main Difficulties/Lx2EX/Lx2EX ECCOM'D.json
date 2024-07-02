@@ -1,6 +1,6 @@
 {
   "Name": "Lx2EX ECCOM'D",
-  "Description": "Lx2EX ECCOM'D ported to CD2. Original Description: REQUIRES MORE ENEMY VARIANTS (MEV). Lx2EX, but modified to fit ECCOM OPERATIONAL's taste in difficulties. VEA is assumed on. Latest update: Alphabetized EnemyDescriptors.",
+  "Description": "Lx2EX ECCOM'D ported to CD2. Original Description: Lx2EX, but modified to fit ECCOM OPERATIONAL's taste in difficulties. VEA is assumed on. Latest update: Alphabetized EnemyDescriptors.",
   "Caps": {
     "MaxActiveCritters": 40,
     "MaxActiveSwarmers": [
