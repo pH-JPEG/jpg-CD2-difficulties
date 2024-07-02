@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Alphabetized EnemyDescriptors, Shellback MaxSpawnCount 3->1.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: There can now only be 1 Oppressor during an Uplink/Fuel Cells/Black Box objective or 3 Oppressors during all other times.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -158,8 +158,58 @@
       "VeteranLarge": [
         {
           "weight": 1,
-          "min": 0.3,
-          "max": 0.3
+          "min": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_Spider_ShieldTank"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": 0.3
+            },
+            "Else": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_Spider_ShieldTank"
+              },
+              ">=": 3,
+              "Then": 0,
+              "Else": 0.3
+            }
+          },
+          "max": {
+            "Mutate": "If",
+            "Condition": {
+              "Mutate": "DuringDefend"
+            },
+            "Then": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_Spider_ShieldTank"
+              },
+              ">=": 1,
+              "Then": 0,
+              "Else": 0.3
+            },
+            "Else": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_Spider_ShieldTank"
+              },
+              ">=": 3,
+              "Then": 0,
+              "Else": 0.3
+            }
+          }
         }
       ],
       "EnvironmentalDamageModifier": 1.6,
