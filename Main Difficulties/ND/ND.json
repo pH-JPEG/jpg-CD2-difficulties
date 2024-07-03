@@ -1,6 +1,6 @@
 {
     "Name": "ND",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest version: There can now only be 1 Oppressor during an Uplink/Fuel Cells/Black Box objective or 3 Oppressors during all other times.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest change: There can now only be 1 Oppressor during an Uplink/Fuel Cells/Black Box objective or 3 Oppressors during all other times.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
