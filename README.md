@@ -24,6 +24,12 @@ The main difficulties so far are:
 - [6x2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX.json)
   - Originally from CD1. A 6x2-based version of Lx2. Originally the more fair version of Lx2, it now serves as an entry-level difficulty for my difficulties/6x2+. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX%20Features.txt).
   - *Latest update:* Alphabetized EnemyDescriptors.
+- [Send It! Type R](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties/Send%20It!%20Type%20R)
+  - Originally from CD1 and finished development in CD2. A combination of Send It! and 6x2EX. Comes with two variants. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties/Send%20It!%20Type%20R).
+  - *Latest update:* Release versions.
 
 ## [WIP Difficulties](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/WIP%20Difficulties)
 Difficulties that are currently being tested. All versions will be uploaded to the corresponding difficulty's folder. Upon completion, all pre-release versions will be moved to the Alpha/Beta Versions folder.
+
+## [Alpha and Beta Versions](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Alpha%20and%20Beta%20Versions)
+Older versions of some of the main difficulties.
