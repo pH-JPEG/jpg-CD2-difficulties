@@ -1,6 +1,6 @@
 {
     "Name": "Send It! Type R - EK9",
-    "Description": "Send It! Type R, a combination of Send It and 6x2EX. No swarms, but small waves of enemies spawn frequently with 6x2EX style waves. Do not play Point Extraction or Escort; all other mission types are recommended. EK9 variant: Harder version of Send It! Type R. Wave frequency remains constant.",
+    "Description": "Send It! Type R, a combination of Send It and 6x2EX. No swarms, but small waves of enemies spawn frequently with 6x2EX style waves. Do not play Point Extraction or Escort; all other mission types are recommended. EK9 variant: Harder version of Send It! Type R. Wave frequency remains constant. Latest change: Release version.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
