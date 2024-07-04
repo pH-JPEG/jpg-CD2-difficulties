@@ -1,1 +1,0 @@
-Send It! is a fast paced version of 6x2. There are no announced swarms but frequent small waves of bugs. The amount of encounter and stationary spawns are reduced to help with pushing faster. 90% of the time, a wave will spawn in 45 seconds. 10% of the time, a wave will spawn in 60 seconds. The max enemies present on the map is also less than usual 6x2p4.
