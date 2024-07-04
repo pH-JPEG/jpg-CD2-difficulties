@@ -1,0 +1,230 @@
+{
+    "Name": "Send It!",
+    "Description": "Send It ported to CD2 with a safety net for snowballing. This is the intended version of CD2 Send It to be played. Do not play Point Extraction or Escort; all other mission types are recommended. Latest update: Release version.",
+    "Caps": {
+      "MaxActiveCritters": 90,
+      "MaxActiveSwarmers": 120,
+      "MaxActiveEnemies": 120
+    },
+    "Resupply": {
+      "Cost": 40
+    },
+    "DifficultySetting": {
+      "ExtraLargeEnemyDamageResistance": [
+        1,
+        1.3,
+        1.7,
+        2.1
+      ],
+      "ExtraLargeEnemyDamageResistanceB": [
+        1,
+        1.3,
+        1.5,
+        1.7
+      ],
+      "ExtraLargeEnemyDamageResistanceC": [
+        1,
+        1.3,
+        1.7,
+        2.1
+      ],
+      "ExtraLargeEnemyDamageResistanceD": [
+        1.5,
+        1.55,
+        1.75,
+        1.9
+      ],
+      "EnemyDamageResistance": [
+        1.4,
+        1.5,
+        1.6,
+        1.75
+      ],
+      "SmallEnemyDamageResistance": [
+        1.2,
+        1.2,
+        1.2,
+        1.2
+      ],
+      "EnemyDamageModifier": [
+        3.3,
+        3.65,
+        3.9,
+        4.1
+      ],
+      "EnemyCountModifier": [
+        1.9,
+        2.1,
+        2.7,
+        3.3
+      ],
+      "EncounterDifficulty": [
+        {
+          "weight": 1,
+          "min": 275,
+          "max": 325
+        },
+        {
+          "weight": 6,
+          "min": 225,
+          "max": 375
+        }
+      ],
+      "StationaryDifficulty": [
+        {
+          "weight": 1,
+          "min": 175,
+          "max": 225
+        }
+      ],
+      "EnemyWaveInterval": [
+        {
+          "weight": 7.5,
+          "min": 12000,
+          "max": 12000
+        }
+      ],
+      "EnemyNormalWaveInterval": [
+        {
+            "weight": 0.9,
+            "min": {
+              "Mutate": "Add",
+              "A": 45,
+              "B": {
+                "Mutate": "Multiply",
+                "A": 10,
+                "B": {
+                  "Mutate": "IfFloat",
+                  "Value": {
+                    "Mutate": "DwarvesDown"
+                  },
+                  "==": 1,
+                  "Then": 0.5,
+                  "Else": {
+                    "Mutate": "IfFloat",
+                    "Value": {
+                      "Mutate": "DwarvesDown"
+                    },
+                    "==": 2,
+                    "Then": 1,
+                    "Else": {
+                      "Mutate": "IfFloat",
+                      "Value": {
+                        "Mutate": "DwarvesDown"
+                      },
+                      "==": 3,
+                      "Then": 1.5,
+                      "Else": 0
+                    }
+                  }
+                }
+              }
+            },
+            "max": {
+              "Mutate": "Add",
+              "A": 45,
+              "B": {
+                "Mutate": "Multiply",
+                "A": 10,
+                "B": {
+                  "Mutate": "IfFloat",
+                  "Value": {
+                    "Mutate": "DwarvesDown"
+                  },
+                  "==": 1,
+                  "Then": 0.5,
+                  "Else": {
+                    "Mutate": "IfFloat",
+                    "Value": {
+                      "Mutate": "DwarvesDown"
+                    },
+                    "==": 2,
+                    "Then": 1,
+                    "Else": {
+                      "Mutate": "IfFloat",
+                      "Value": {
+                        "Mutate": "DwarvesDown"
+                      },
+                      "==": 3,
+                      "Then": 1.5,
+                      "Else": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+        {
+          "weight": 0.1,
+          "min": 60,
+          "max": 60
+        }
+      ],
+      "EnemyNormalWaveDifficulty": [
+        {
+          "weight": 1,
+          "min": 367,
+          "max": 433
+        }
+      ],
+      "EnemyDiversity": [
+        {
+          "weight": 2,
+          "min": 4,
+          "max": 4
+        },
+        {
+          "weight": 8,
+          "min": 6,
+          "max": 6
+        }
+      ],
+      "StationaryEnemyDiversity": [
+        {
+          "weight": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
+      "VeteranNormal": [
+        {
+          "weight": 2,
+          "min": 0.5,
+          "max": 0.8
+        }
+      ],
+      "VeteranLarge": [
+        {
+          "weight": 1,
+          "min": 0.2,
+          "max": 0.2
+        }
+      ],
+      "EnvironmentalDamageModifier": 1.4,
+      "PointExtractionScalar": 1.4,
+      "FriendlyFireModifier": 0.9,
+      "WaveStartDelayScale": 0,
+      "SpeedModifier": 1.35,
+      "AttackCooldownModifier": 1.75,
+      "ProjectileSpeedModifier": 1.9,
+      "HealthRegenerationMax": 0.1,
+      "ReviveHealthRatio": 0.1
+    },
+    "Pools": {
+      "MinPoolSize": 15,
+      "DisruptiveEnemyPoolCount": {
+        "min": 4,
+        "max": 8
+      },
+      "StationaryEnemyCount": {
+        "Min": 6,
+        "Max": 6
+      }
+    },
+    "EscortMule": {
+      "FriendlyFireModifier": 0.1,
+      "BigHitDamageModifier": 0.75,
+      "BigHitDamageReductionThreshold": 0,
+      "NeutralDamageModifier": 0.1
+    }
+  }
