@@ -14,8 +14,8 @@ The main difficulties so far are:
   - Originally from CD1. For when the cave madness from Lx2 wasn't enough. Significantly RNG-based. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Lx2EX/Lx2EX%20Features.txt).
   - *Latest update:* Alphabetized EnemyDescriptors.
   - [Lx2EX ECCOM'D](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Lx2EX/Lx2EX%20ECCOM'D.json): Lx2EX modified to fit the tastes of the team ECCOM OPERATIONAL. Nerfs some features and removes some RNG but adds some new Stationary enemies.
-- Send It!
-  - Originally from CD1. A version of 6x2 with no swarms, but frequent waves. Description is listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Send%20It!/Send%20It!%20Features.txt).
+- [Send It!](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Send%20It!/Send%20It!.json)
+  - Originally from CD1. A version of 6x2 with no swarms, but frequent waves. Description is listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Send%20It!/Send%20It!%20Features.md).
   - *Latest update:* Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount max 7->8. MinPoolSize 14->15.
   - [Send It! Classic](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Send%20It!/Send%20It!%20Classic.json): Send It without any CD2 features that make it easier, equivalent to the CD1 version.
 - [Lx2](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Lx2/Lx2.json)
