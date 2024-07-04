@@ -1,6 +1,6 @@
 {
     "Name": "Send It! Classic",
-    "Description": "CD2 port of Send It with no new CD2 features that make it easier. Latest update: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount max 7->8. MinPoolSize 14->15.",
+    "Description": "CD2 port of Send It without the snowballing safety net. Identical to the CD1 version of Send It in gameplay. Do not play Point Extraction or Escort; all other mission types are recommended. Latest update: Updated for Season 5; StationaryEnemyCount, StationaryEnemyDiversity 4->6. DisruptiveEnemyPoolCount max 7->8. MinPoolSize 14->15.",
     "Caps": {
       "MaxActiveCritters": 90,
       "MaxActiveSwarmers": 120,
