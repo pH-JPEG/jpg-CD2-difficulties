@@ -394,6 +394,7 @@
         "CanBeUsedInEncounters": false,
         "DifficultyRating": 250,
         "DisplayName": "Gruntmoder",
+        "IsBossFight": true,
         "Materials": [
           "M_Spider_Grunt_Body_Generic",
           "M_Spider_Grunt_Armor_Generic",
