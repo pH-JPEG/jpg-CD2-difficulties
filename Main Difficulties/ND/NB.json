@@ -1,6 +1,6 @@
 {
     "Name": "NB",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: There can now only be 1 Oppressor during an Uplink/Fuel Cells/Black Box objective or 3 Oppressors during all other times.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). Faster paced version of ND. Latest version: Brambles removed from StationaryPool and added to SpecialEncounters. Stalkers are no longer encounters. Barrager DifficultyRating 145->250. The EnemyCountModifier is multiplied by x4 whenever an Egg is pulled.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -68,12 +68,28 @@
         4.4,
         4.6
       ],
-      "EnemyCountModifier": [
-        2.3,
-        2.5,
-        2.9,
-        3.5
-      ],
+      "EnemyCountModifier": {
+       "Mutate": "Multiply",
+        "A": {
+          "Mutate": "ByPlayerCount",
+          "Values": [
+            2.3,
+            2.5,
+            2.9,
+            3.5
+          ]
+        },
+        "B":{
+          "Mutate": "If",
+          "Condition":{
+            "Mutate": "DuringEggAmbush",
+              "StartingAt": 5,
+              "StoppingAfter": 10
+          },
+          "Then": 4,
+          "Else": 1
+        }
+      },
       "EncounterDifficulty": [
         {
           "weight": 1,
@@ -254,11 +270,17 @@
         "Add": [
           "ED_Sprout_Normal",
           "ED_ShootingPlant_NukeSingle"
+        ],
+        "Remove":[
+          "ED_TentaclePlant"
         ]
       }
     },
     
     "Enemies": {
+      "ED_BarrageInfector":{
+        "DifficultyRating": 250
+      },
       "ED_Bomber": {
           "CanBeUsedForConstantPressure": true,
           "CanBeUsedInEncounters": true,
@@ -582,7 +604,7 @@
       },
       "ED_Spider_Stalker": {
           "CanBeUsedForConstantPressure": true,
-          "CanBeUsedInEncounters": true,
+          "CanBeUsedInEncounters": false,
           "DifficultyRating": 90,
           "MaxSpawnCount": 1,
           "MinSpawnCount": 1,
@@ -702,6 +724,13 @@
           "WeakpointHP": 300
       }
   },
+  "SpecialEncounters":[
+        {
+            "BaseChance": 1,
+            "CanSpawnInDeepDive": true,
+            "Enemy": "ED_TentaclePlant"
+        }
+    ],
     "WaveSpawners": [
       {
         "Enabled": {
