@@ -12,3 +12,4 @@ Bulks follow Diablo spawn logic (can spawn multiple at a time spread throughout 
 Bulks move x1.35 faster
 Grabbers spawn spread out from waves
 Chrome Grunts spawn from Swarmer Tunnels and Swarmer Eggs.
+Stalkers are stunnable.
