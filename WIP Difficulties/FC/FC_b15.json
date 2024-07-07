@@ -1,6 +1,6 @@
 {
     "Name": "FC_b15",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). FC, the harder version of ND created with CD2 in mind. b15: Brambles removed from StationaryPool and are now a guaranteed SpecialEncounter so only one can spawn in the entire map.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). FC, the harder version of ND created with CD2 in mind. b15: Brambles removed from StationaryPool and are now a guaranteed SpecialEncounter so only one can spawn in the entire map. Leech TimeDilation 2->1.35 while a Bramble is still alive on the map.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -457,7 +457,16 @@
             },
             "DifficultyRating": 100,
             "SpawnAmountModifier": 1,
-            "TimeDilation": 2
+            "TimeDilation": {
+              "Mutate": "IfFloat",
+              "Value": {
+                "Mutate": "EnemyCount",
+                "ED": "ED_TentaclePlant"
+              },
+              ">=": 1,
+              "Then": 1.35,
+              "Else": 2
+            }
         },
         "ED_CaveLeech_fat": {
             "Base": "ED_CaveLeech",
