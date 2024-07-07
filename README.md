@@ -8,7 +8,7 @@ The main difficulties so far are:
 - [ND](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/ND.json)
   - **REQUIRES THE MORE ENEMY VARIANTS MOD BY YINNY.** This mod can be found in the [Practical DRG Discord](https://discord.gg/hFkqMXPBzA) under the modding-forum channel as its own post labeled "WIP More Enemy Variants (MEV)." Without the mod, a host cannot load the difficulty file in Custom Difficulty while some enemies are invisible to a client who joined a ND lobby without downloading MEV.
   - Originally from CD1. The more balanced, consistent, and polished successor to Lx2 and Lx2EX which serves as an initial experiment with MEV. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/ND%20Features.txt).
-  - *Latest update:* There can now only be 1 Oppressor during an Uplink/Fuel Cells/Black Box objective or 3 Oppressors during all other times.
+  - *Latest update:* Brambles removed from StationaryPool and added to SpecialEncounters. Stalkers are no longer encounters. Barrager DifficultyRating 145->250. The EnemyCountModifier is multiplied by x4 whenever an Egg is pulled.
   - [NB](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/ND/NB.json): A faster paced version of ND that only changes EnemyNormalWaveInterval and EnemyWaveInterval. Intended to give a light, Send It flavor to ND.
 - [Lx2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Lx2EX/Lx2EX.json)
   - Originally from CD1. For when the cave madness from Lx2 wasn't enough. Significantly RNG-based. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Lx2EX/Lx2EX%20Features.txt).
@@ -23,10 +23,10 @@ The main difficulties so far are:
   - *Latest update:* Alphabetized EnemyDescriptors.
 - [6x2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX.json)
   - Originally from CD1. A 6x2-based version of Lx2. Originally the more fair version of Lx2, it now serves as an entry-level difficulty for my difficulties/6x2+. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX%20Features.txt).
-  - *Latest update:* Alphabetized EnemyDescriptors.
+  - *Latest update:* Adjusted Stalker Descriptor from default stats to balance against other EnemyDescriptors; DifficultyRating 95->200, MaxSpawnCount 1->0, Rarity 10->7. Stalkers are now stunnable. Barrager DifficultyRating 145->250. Brambles removed from StationaryPool and are now SpecialEncounters.
 - [Send It! Type R](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties/Send%20It!%20Type%20R)
   - Originally from CD1 and finished development in CD2. A combination of Send It! and 6x2EX. Comes with two variants. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties/Send%20It!%20Type%20R).
-  - *Latest update:* Release versions.
+  - *Latest update:* Adjusted Stalker Descriptor from default stats to balance against other EnemyDescriptors; DifficultyRating 95->200, MaxSpawnCount 1->0, Rarity 10->7. Stalkers are now stunnable. Barrager DifficultyRating 145->250. Brambles removed from StationaryPool and are now SpecialEncounters.
 
 ## [WIP Difficulties](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/WIP%20Difficulties)
 Difficulties that are currently being tested. All versions will be uploaded to the corresponding difficulty's folder. Upon completion, all pre-release versions will be moved to the Alpha/Beta Versions folder.
