@@ -1,6 +1,6 @@
 {
   "Name": "6x2EX",
-  "Description": "CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Alphabetized EnemyDescriptors.",
+  "Description": "CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Adjusted Stalker Descriptor from default stats to balance against other EnemyDescriptors; DifficultyRating 95->200, MaxSpawnCount 1->0, Rarity 10->7. Stalkers are now stunnable. Barrager DifficultyRating 145->250. Brambles removed from StationaryPool and are now SpecialEncounters.",
   "Caps": {
     "MaxActiveCritters": 40,
     "MaxActiveSwarmers": [
@@ -163,9 +163,17 @@
         "ED_JellyBreeder_Swarm",
         "ED_PatrolBot"
       ]
+    },
+    "StationaryPool":{
+      "Remove":[
+        "ED_TentaclePlant"
+      ]
     }
   },
   "Enemies": {
+    "ED_BarrageInfector":{
+      "DifficultyRating": 250
+    },
     "ED_Bomber": {
         "Base": "ED_Bomber",
         "CanBeUsedForConstantPressure": true,
@@ -364,6 +372,17 @@
         "Rarity": 5.375,
         "SpawnAmountModifier": 1
     },
+    "ED_Spider_Stalker":{
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": false,
+      "DifficultyRating": 200,
+      "MaxSpawnCount": 0,
+      "MinSpawnCount": 1,
+      "Rarity": 7,
+      "SpawnAmountModifier": 1,
+      "StaggerDurationMultiplier": 1,
+      "StaggerImmunityWindow": 0
+    },
     "ED_Spider_Stinger": {
         "Base": "ED_Spider_Stinger",
         "CanBeUsedForConstantPressure": true,
@@ -417,6 +436,13 @@
         "SpawnAmountModifier": 1
     }
 },
+"SpecialEncounters":[
+        {
+            "BaseChance": 1,
+            "CanSpawnInDeepDive": true,
+            "Enemy": "ED_TentaclePlant"
+        }
+    ],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,
     "BigHitDamageModifier": 0.75,
