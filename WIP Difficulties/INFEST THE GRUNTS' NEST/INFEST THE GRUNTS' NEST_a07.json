@@ -1,7 +1,6 @@
 {
   "Name": "INFEST THE GRUNTS' NEST_a07",
   "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. HOXXES FOR THE GRUNTS. a07: Breeder Slashers are now blue. Venusian 1 and Venusian 2 added. Rat Movement Module x1.5 to all stats except AlignToTargetMinRequiredAngle.",
-  "Darkness": {},
   "Caps": {
     "MaxActiveCritters": 40,
     "MaxActiveSwarmers": [
