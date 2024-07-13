@@ -1,7 +1,6 @@
 {
     "Name": "INFEST THE GRUNTS' NEST_a08",
     "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. HOXXES FOR THE GRUNTS. a08: Breeder Slasher Movement module 0.75->0.90, PhysicalDamageMultiplier 1->2.64. Glasher PhysicalDamageMultiplier 1->1.5. Perihelion MaxAcceleration, MaxBrakingDeceleration, MaxPawnSpeed 1->2. Gruntinator added.",
-    "Darkness": {},
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
