@@ -25,7 +25,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Sentinel**
   - These are the bugs the Dreadnought Hiveguard summon. These also move 35% faster.
 - **Leech**
-  - These move x2 faster. However, if a Leech from high up grabs you and it's killed, you will not die of fall damage.
+  - These move x2 faster. These will only move at x1.35 if a Scalebramble is on the map. However, if a Leech from high up grabs you and it's killed, you will not die of fall damage.
 - **Fire Bomber**
   - This is an unused enemy in the game files. It behaves like a normal Goo Bomber, except it drops bomblets that deal extreme damage to players.
 - **Breeder**
@@ -81,7 +81,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Barrage Infector**
   - These are rarer than usual and are even rarer on Escort.
 - **Scalebramble**
-  - These are rarer than usual and are banned on Escort.
+  - These are rarer than usual and are banned on Escort. Only one can spawn per mission.
 - **Warden Bomber**
   - These are pink Goo Bombers added from MEV. These spawn 8 Mactera Spawn upon aggro and they heal them and all other types of Mactera similar to a Warden. It does not attack, it only heals.
 
