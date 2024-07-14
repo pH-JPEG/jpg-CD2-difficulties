@@ -47,7 +47,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Trawler**
   - These spawn globally in all biomes.
 - **Oppressor**
-  - These move at x2 speed. If 3 or more Oppressors are present on the map, no more Oppressors will spawn in.
+  - These move at x2 speed. If 3 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in.
 - **Stalker**
   - These are now stunnable. 
 - **Rockpox Breeder**
