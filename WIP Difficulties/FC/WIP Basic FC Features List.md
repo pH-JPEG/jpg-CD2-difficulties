@@ -43,7 +43,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Grabber**
   - These move x1.5 faster.
 - **Bulk Detonator**
-  - These move x1.5 faster. They also tend to spawn far from the team.
+  - These move x1.5 faster. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team.
 - **Trawler**
   - These spawn globally in all biomes.
 - **Oppressor**
