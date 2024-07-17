@@ -1,5 +1,6 @@
 As FC is still a WIP difficulty, this feature list may be subject to change. It may not always be accurate.
 **The mod More Enemy Variants (MEV) by yinny is required. If you are trying to host without MEV, Custom Difficulty will not allow you to load the file. If you join a lobby with FC and you don't have MEV yourself, there will be invisible enemies.**
+**The mods DEA and Beta Stalkers by donnie danko are required. Same logic from missing MEV applies.**
 # General
 - Enemy HP scaling follows Hazard 6.
 - Enemy movement speed follows Hazard 7.
@@ -22,6 +23,8 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Custom waves of certain enemies spawn at set intervals or conditions.
 
 # Enemies
+- **Canary**
+  - This is a giant Swarmer that spawns at the start of every mission. Its sole purpose is to test client desync. If clients cannot see a giant Swarmer or the boss health bar it creates, they are desynced and should try rejoining.
 - **Sentinel**
   - These are the bugs the Dreadnought Hiveguard summon. These also move 35% faster.
 - **Leech**
@@ -34,9 +37,9 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - These spawn globally independent of Rival Presence or Industrial Sabotage.
 - **Nexus**
   - These take x3.95 fire damage. They also spawn white Slashers from MEV that only have 66 HP.
-- **Sentinel Swarmer**
+- **Sentinel Swarmer (MEV)**
   - These are small, blue Sentinels from MEV with little HP. They still leave goo upon death. They can spawn as part of wave or from Swarmer Tunnels.
-- **White Exploder**
+- **White Exploder (MEV)**
   - Apart from spawning from Breeders, these also spawn from Swarmer Eggs. These also move at x0.75 speed.
 - **Exploder**
   - These move x1.5 faster.
@@ -48,33 +51,33 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - These spawn globally in all biomes.
 - **Oppressor**
   - These move at x2 speed. If 3 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in.
-- **Stalker**
-  - These are now stunnable. 
+- **Stalker (Beta Stalkers)**
+  - These are replaced with their Beta version. Set your Effects in the in-game options to High to see them while they are cloaked.
 - **Rockpox Breeder**
   - These have a rare chance of spawning in a wave. These spawn and move at x0.25 speed and take x2 damage. These spawn yellow Septic Spreaders with the HP of a Webspitter.
-- **Elite Grunt Guard, Elite Grunt Slasher, Elite Mactera Spawn**
+- **Elite Grunt Guard, Elite Grunt Slasher, Elite Mactera Spawn (CD2)**
   - These spawn globally independent of Elite Threat. They have the HP of a Brundle. These have a new look and glow.
-- **Turbo Menace**
+- **Turbo Menace (MEV)**
   - This is a flashy Menace from MEV. It shoots a laserbeam of projectiles, but it only has 100 HP, giving it slightly less than a Grunt.
 - **Lacerator + Arbalest**
   - These can spawn in waves. Only one or the other can spawn in a given mission. Both have Brundle HP.
-- **Mini Bulk Detonator**
+- **Mini Bulk Detonator (MEV)**
   - A small Bulk Detonator from MEV. Its stomp radius and explosion radius is significantly smaller than a normal Bulk's. It also shoots out less meatballs upon death. It leaves behind dirt when it dies. This also has less HP than a normal Bulk.
-- **Korlok Sprouts**
+- **Korlok Sprouts (MEV)**
   - Added from MEV, Sprouts spawn as Stationaries similar to Nexuses, Leeches, Breeders, and Spitballers. These can spawn on the ground or the ceiling and start off sleeping until they take damage. These take x1.2 damage.
-- **Nukeballer**
+- **Nukeballer (MEV)**
   - Added from MEV, this is a Spitballer that shoots a slow-moving nuke that instakills anyone in the blast radius and leaves behind a cloud of radiation. It does not carve terrain. The projectile can be shot down.
-- **Big Shredder**
+- **Big Shredder (CD2)**
   - Possible with CD2, this is just a big Shredder that spawns alone or in a pair. It deals normal Shredder damage, but it has about x13 the HP of a normal Shredder.
-- **Big Bulk Detonator**
+- **Big Bulk Detonator (MEV)**
   - Added from MEV, this is a big Bulk Detonator that has its looks modified by CD2. It has more HP and has a significantly larger death explosion and carve radius. It leaves behind hot rock upon death. It also moves x1.35 faster.
-- **Bundle**
+- **Bundle (CD2)**
   - This is a big, white Brundle possible with CD2. It deals normal damage but it has the HP of a Goo Bomber.
-- **Turbonator**
+- **Turbonator (CD2, MEV)**
   - This is a CD2-modified Plantonator from MEV. It is as rare as the Rockpox Breeder. It behaves like a normal Bulk but it has only around 1000 HP. Upon death, it leaves a normal Bulk crater, but it shoots out 16 meatballs that all turn into Turbo Menaces.
-- **Fat Leech**
+- **Fat Leech (CD2)**
   - This is a CD2-modified Cave Leech. It's larger and it has more HP. It also moves slower than normal Cave Leeches, but it has extreme horizontal range; it can grab you at a near 90-degree angle.
-- **Kamikaze Goo Bomber**
+- **Kamikaze Goo Bomber (CD2)**
   - This is a CD2-modified Goo Bomber. It's very small, glows, and it has about the health of a Swarmer. Its main objective is to die on top of the team and leave behind goo everywhere.
 - **Crawler**
   - These can spawn in waves globally independent of the Core Stone event.
@@ -82,8 +85,12 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - These are rarer than usual and are even rarer on Escort.
 - **Scalebramble**
   - These are rarer than usual and are banned on Escort. Only one can spawn per mission.
-- **Warden Bomber**
+- **Warden Bomber (MEV)**
   - These are pink Goo Bombers added from MEV. These spawn 8 Mactera Spawn upon aggro and they heal them and all other types of Mactera similar to a Warden. It does not attack, it only heals.
+- **Fanatic (DEA)**
+  - This is a Menace from DEA that fires the Arbalest Fireball Fan. It has equivalent HP to a Turbo Menace (100 HP).
+- **Pentajaw (DEA)**
+  - This is a Trijaw from DEA that shoots two additional projectiles. It is a veteran of a Trijaw and follows VeteranLarge.
 
 # Custom Waves
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
