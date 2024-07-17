@@ -902,6 +902,9 @@
       "MaxSpawnCount": 2,
       "MinSpawnCount": 1,
       "Rarity": 5.5,
+      "Resistances": {
+          "DamageMultiplier": 12.25
+        },
       "SpawnAmountModifier": 1
     },
     "ED_Spider_Grunt": {
