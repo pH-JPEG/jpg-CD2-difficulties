@@ -622,6 +622,7 @@
         "CanBeUsedForConstantPressure": false,
         "CanBeUsedInEncounters": true,
         "DifficultyRating": 300,
+        "DisplayName": "Gruntballer Infector",
         "Materials": [
           "",
           "M_Drone_Lens02",
