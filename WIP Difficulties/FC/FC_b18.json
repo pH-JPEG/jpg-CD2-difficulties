@@ -1,6 +1,6 @@
 {
     "Name": "FC_b18",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV), DEA, AND BETA STALKERS PAK. FC, the harder version of ND created with CD2 in mind. b18: Spawnballer removed. Shotgunner removed. StationaryEnemyCount, StationaryEnemyDiversity 12->11. Big Bulk DifficultyRating 150->450, Rarity 6->9.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV), DEA, AND BETA STALKERS PAK. FC, the harder version of ND created with CD2 in mind. b18: Spawnballer removed. Shotgunner removed. StationaryEnemyCount, StationaryEnemyDiversity 12->11. Big Bulk DifficultyRating 150->450, Rarity 6->9. Bramble TimeDilation 1->0.5.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -1193,7 +1193,8 @@
           "M_Bramble_Body_Flesh",
           "M_Bramble_Spikes",
           "M_DropPod_RampLightsNotBlinking"
-        ]
+        ],
+        "TimeDilation": 0.5
       },
       "ED_TunnelSwarmer": {
         "Base": "ED_Spider_Tank_HeavySpawn_swarmer",
