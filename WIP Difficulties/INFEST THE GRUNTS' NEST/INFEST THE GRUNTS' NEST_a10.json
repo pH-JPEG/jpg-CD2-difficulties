@@ -1,6 +1,6 @@
 {
-    "Name": "INFEST THE GRUNTS' NEST_a09",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. HOXXES FOR THE GRUNTS. a09: RegenHealthPerSecond set to 6 s, RegenDelayAfterDamage set to 6 s. Gruntmoder TimeDilation 3->1.5, MaxSpawnCount 1->0. Gruntinator MaxSpawnCount 1->0. Gruntinator Grunters PiercingDamageMultiplier 0->1. Venusian 1 and Venusian 2 DamageMultiplier x2->x4. Big Bulk PiercingDamageMultiplier 0->0.5, Movement module 1.35->1.",
+    "Name": "INFEST THE GRUNTS' NEST_a10",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. HOXXES FOR THE GRUNTS. a10: RegenHealthPerSecond set to 6 s, RegenDelayAfterDamage set to 6 s. Gruntmoder TimeDilation 3->1.5, MaxSpawnCount 1->0. Gruntinator MaxSpawnCount 1->0. Gruntinator Grunters PiercingDamageMultiplier 0->1. Venusian 1 and Venusian 2 DamageMultiplier x2->x4. Big Bulk PiercingDamageMultiplier 0->0.5, Movement module 1.35->1.",
     "Dwarves":{
         "RegenHealthPerSecond": 5.8,
         "RegenDelayAfterDamage": 6
