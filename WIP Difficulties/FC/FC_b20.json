@@ -1,6 +1,6 @@
 {
     "Name": "FC_b20",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV), DEA, AND BETA STALKERS PAK. FC, the harder version of ND created with CD2 in mind. b20: RegenHealthPerSecond set to 6 s, RegenDelayAfterDamage set to 6 s.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. FC, the harder version of ND created with CD2 in mind. b20: RegenHealthPerSecond set to 6 s, RegenDelayAfterDamage set to 6 s.",
     "Dwarves":{
         "RegenHealthPerSecond": 5.8,
         "RegenDelayAfterDamage": 6
