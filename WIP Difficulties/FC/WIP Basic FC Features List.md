@@ -1,6 +1,6 @@
 As FC is still a WIP difficulty, this feature list may be subject to change. It may not always be accurate.
 **The mod More Enemy Variants (MEV) by yinny is required. If you are trying to host without MEV, Custom Difficulty will not allow you to load the file. If you join a lobby with FC and you don't have MEV yourself, there will be invisible enemies.**
-**The mods DEA and Beta Stalkers by donnie danko are required. Same logic from missing MEV applies.**
+**The mod DEA by donnie danko is required. Same logic from missing MEV applies.**
 # General
 - Enemy HP scaling follows Hazard 6.
 - Enemy movement speed follows Hazard 7.
@@ -59,8 +59,8 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - These spawn globally independent of Elite Threat. They have the HP of a Brundle. These have a new look and glow.
 - **Turbo Menace (MEV)**
   - This is a flashy Menace from MEV. It shoots a laserbeam of projectiles, but it only has 100 HP, giving it slightly less than a Grunt.
-- **Lacerator + Arbalest**
-  - These can spawn in waves. Only one or the other can spawn in a given mission. Both have Brundle HP.
+- **Lacerator + Arbalest (DEA)**
+  - These can spawn in waves. Both have Brundle HP. They will not try to heal with each other. 
 - **Mini Bulk Detonator (MEV)**
   - A small Bulk Detonator from MEV. Its stomp radius and explosion radius is significantly smaller than a normal Bulk's. It also shoots out less meatballs upon death. It leaves behind dirt when it dies. This also has less HP than a normal Bulk.
 - **Korlok Sprouts (MEV)**
@@ -77,14 +77,16 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - This is a CD2-modified Plantonator from MEV. It is as rare as the Rockpox Breeder. It behaves like a normal Bulk but it has only around 1000 HP. Upon death, it leaves a normal Bulk crater, but it shoots out 16 meatballs that all turn into Turbo Menaces.
 - **Fat Leech (CD2)**
   - This is a CD2-modified Cave Leech. It's larger and it has more HP. It also moves slower than normal Cave Leeches, but it has extreme horizontal range; it can grab you at a near 90-degree angle.
-- **Kamikaze Goo Bomber (CD2)**
-  - This is a CD2-modified Goo Bomber. It's very small, glows, and it has about the health of a Swarmer. Its main objective is to die on top of the team and leave behind goo everywhere.
+- **Kamikaze Goo Bomber (CD2, DEA)**
+  - This is a CD2-modified Goo Bomber. It's very small, glows, and it has about the health of a Swarmer. Its main objective is to die on top of the team and leave behind goo everywhere. It does not have the normal shot attack of a goo bomber. 
 - **Crawler**
   - These can spawn in waves globally independent of the Core Stone event.
+- **Gorilla**
+  - Larger version of the crawler.
 - **Barrage Infector**
   - These are rarer than usual and are even rarer on Escort.
 - **Scalebramble**
-  - These are rarer than usual and are banned on Escort. Only one can spawn per mission.
+  - These are rarer than usual and are banned on Escort. They are time dilated to half speed. 
 - **Warden Bomber (MEV)**
   - These are pink Goo Bombers added from MEV. These spawn 8 Mactera Spawn upon aggro and they heal them and all other types of Mactera similar to a Warden. It does not attack, it only heals.
 - **Fanatic (DEA)**
@@ -99,3 +101,4 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Every 45 seconds, either 20 Grunts, a Bundle, or 3 Mini-Bulks spawn.
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
+- Every 60 seconds, a Pentajaw spawns
