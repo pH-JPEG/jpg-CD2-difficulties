@@ -82,7 +82,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Crawler**
   - These can spawn in waves globally independent of the Core Stone event.
 - **Gorilla**
-  - Larger version of the crawler.
+  - Larger version of the Crawler.
 - **Barrage Infector**
   - These are rarer than usual and are even rarer on Escort.
 - **Scalebramble**
@@ -98,7 +98,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
 - At the start of a mission, a Canary or two spawns in. It is a big, slow swarmer with a boss HP bar. It is meant to detect desync between clients on CD2.
 - Every 5 minutes, 6 Harvesters and 6 Magma Maggots spawn spread out throughout the cave.
-- Every 45 seconds, either 20 Grunts, a Bundle, or 3 Mini-Bulks spawn.
+- Every 45 seconds, either 20 Grunts, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
-- Every 60 seconds, a Pentajaw spawns
+- Every 60 seconds, a Pentajaw spawns.
