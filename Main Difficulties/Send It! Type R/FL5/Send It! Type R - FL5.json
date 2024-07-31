@@ -1,6 +1,6 @@
 {
     "Name": "Send It! Type R - FL5",
-    "Description": "Send It! Type R, a combination of Send It and 6x2EX. No swarms, but small waves of enemies spawn frequently with 6x2EX style waves. Do not play Point Extraction or Escort; all other mission types are recommended. FL5 variant: Main and recommended version of Send It! Type R. Wave frequency decreases as more dwarves are downed. Latest change: Adjusted Stalker Descriptor from default stats to balance against other EnemyDescriptors; DifficultyRating 95->200, MaxSpawnCount 1->0, Rarity 10->7. Stalkers are now stunnable. Barrager DifficultyRating 145->250. Brambles removed from StationaryPool and are now SpecialEncounters.",
+    "Description": "Send It! Type R, a combination of Send It and 6x2EX. No swarms, but small waves of enemies spawn frequently with 6x2EX style waves. Do not play Point Extraction or Escort; all other mission types are recommended. FL5 variant: Main and recommended version of Send It! Type R. Wave frequency decreases as more dwarves are downed. Latest change: Brambles removed from SpecialEncounters and are returned to StationaryPool. Bramble TimeDilation 1->0.5. Stalkers are replaced with Beta Stalkers. Bulk SpawnSpread 16000->0 on Escort.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -262,7 +262,6 @@
       },
       "StationaryPool":{
         "Remove":[
-          "ED_TentaclePlant"
         ]
       }
     },
@@ -407,7 +406,11 @@
             },
             "Rarity": 7,
             "SpawnAmountModifier": 1,
-            "SpawnSpread": 16000,
+            "SpawnSpread": {
+              "Mutate": "ByMissionType",
+              "Default": 16000,
+              "Escort": 0
+            },
             "TimeDilation": 1
         },
         "ED_Spider_Grunt": {
@@ -464,6 +467,7 @@
             "SpawnAmountModifier": 1
         },
         "ED_Spider_Stalker":{
+          "Base": "ED_Spider_Stalker_Beta",
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": false,
       "DifficultyRating": 200,
@@ -509,6 +513,9 @@
                 "FireDamageMultiplier": 3.95
             }
         },
+        "ED_TentaclePlant":{
+          "TimeDilation": 0.5
+        },
         "ED_TunnelSwarmer": {
             "Base": "ED_Spider_Grunt",
             "Materials": [
@@ -548,13 +555,6 @@
             "Scale": 5
         }
     },
-    "SpecialEncounters":[
-        {
-            "BaseChance": 1,
-            "CanSpawnInDeepDive": true,
-            "Enemy": "ED_TentaclePlant"
-        }
-    ],
     "WaveSpawners": [
       {
         "Enabled": {

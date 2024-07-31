@@ -1,6 +1,6 @@
 {
     "Name": "ND",
-    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest change: Brambles removed from StationaryPool and added to SpecialEncounters. Stalkers are no longer encounters. Barrager DifficultyRating 145->250. The EnemyCountModifier is multiplied by x4 whenever an Egg is pulled.",
+    "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 version of ND, the relatively fair successor to Lx2 and Lx2EX that also is an initial experiment with MEV. Latest change: Brambles removed from SpecialEncounters and are returned to StationaryPool. Bramble TimeDilation 1->0.5. Stalkers are replaced with Beta Stalkers. Bulk SpawnSpread 16000->0 on Escort.",
     "Caps": {
       "MaxActiveCritters": 40,
       "MaxActiveSwarmers": [
@@ -297,7 +297,6 @@
           "ED_ShootingPlant_NukeSingle"
         ],
         "Remove":[
-          "ED_TentaclePlant"
         ]
       }
     },
@@ -533,7 +532,11 @@
           },
           "Rarity": 6,
           "SpawnAmountModifier": 1,
-          "SpawnSpread": 16000,
+          "SpawnSpread": {
+            "Mutate": "ByMissionType",
+            "Default": 16000,
+            "Escort": 0
+          },
           "TimeDilation": 1
       },
       "ED_Spider_ExploderTank_small": {
@@ -628,6 +631,7 @@
           "SpawnAmountModifier": 1
       },
       "ED_Spider_Stalker": {
+          "Base": "ED_Spider_Stalker_Beta",
           "CanBeUsedForConstantPressure": true,
           "CanBeUsedInEncounters": false,
           "DifficultyRating": 90,
@@ -686,6 +690,9 @@
               "DamageMultiplier": 1.2
           },
           "SpawnAmountModifier": 0.5
+      },
+      "ED_TentaclePlant":{
+        "TimeDilation": 0.5
       },
       "ED_TunnelSwarmer": {
           "Base": "ED_Spider_Tank_HeavySpawn_swarmer",
@@ -749,13 +756,6 @@
           "WeakpointHP": 300
       }
   },
-  "SpecialEncounters":[
-        {
-            "BaseChance": 1,
-            "CanSpawnInDeepDive": true,
-            "Enemy": "ED_TentaclePlant"
-        }
-    ],
     "WaveSpawners": [
       {
         "Enabled": {
