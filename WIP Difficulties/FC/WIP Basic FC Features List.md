@@ -18,7 +18,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Enemy diversity is higher and more variable; this means you can get multiple types of enemies all spawning at once with the amount being variable. You could get a superdiverse wave or a wave of only one or two enemy types.
 - Most caves will have at least one of every Stationary type if possible.
 - Veteran chance has been significantly increased; this means more Guards, Slashers, Brundles, Trijaws, and Oppressors.
-- Many new enemies have been added in the form of enemies that normally don't spawn in waves and entirely new enemies from MEV.
+- Many new enemies have been added in the form of enemies that normally don't spawn in waves and entirely new enemies from MEV and DEA.
 - Some existing enemies have been modified.
 - Custom waves of certain enemies spawn at set intervals or conditions.
 
