@@ -82,7 +82,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Crawler**
   - These can spawn in waves globally independent of the Core Stone event.
 - **Gorilla**
-  - Larger version of the Crawler.
+  - Larger version of the Crawler. These have Brundle HP.
 - **Barrage Infector**
   - These are rarer than usual and are even rarer on Escort.
 - **Scalebramble**
