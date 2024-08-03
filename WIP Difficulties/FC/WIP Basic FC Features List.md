@@ -50,7 +50,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Trawler**
   - These spawn globally in all biomes.
 - **Oppressor**
-  - These move at x2 speed. If 3 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in.
+  - These move at x2 speed. If 2 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in.
 - **Stalker (Beta Stalkers)**
   - These are replaced with their Beta version. Set your Effects in the in-game options to High to see them while they are cloaked.
 - **Rockpox Breeder**
@@ -70,29 +70,31 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Big Shredder (CD2)**
   - Possible with CD2, this is just a big Shredder that spawns alone or in a pair. It deals normal Shredder damage, but it has about x13 the HP of a normal Shredder.
 - **Big Bulk Detonator (MEV)**
-  - Added from MEV, this is a big Bulk Detonator that has its looks modified by CD2. It has more HP and has a significantly larger death explosion and carve radius. It leaves behind hot rock upon death. It also moves x1.35 faster.
+  - Added from MEV, this is a big Bulk Detonator that has its looks modified by CD2. It has more HP and has a significantly larger death explosion and carve radius. It leaves behind hot rock upon death. It also moves x1.35 faster. It is banned on Escort and during Uplink/Fuel Cells/Black Box events.
 - **Bundle (CD2)**
   - This is a big, white Brundle possible with CD2. It deals normal damage but it has the HP of a Goo Bomber.
 - **Turbonator (CD2, MEV)**
-  - This is a CD2-modified Plantonator from MEV. It is as rare as the Rockpox Breeder. It behaves like a normal Bulk but it has only around 1000 HP. Upon death, it leaves a normal Bulk crater, but it shoots out 16 meatballs that all turn into Turbo Menaces.
+  - This is a CD2-modified Plantonator from MEV. It is as rare as the Rockpox Breeder. It behaves like a normal Bulk but it has only around 1000 HP. Upon death, it leaves a normal Bulk crater, but it shoots out 16 meatballs that all turn into Turbo Menaces. It is banned on Escort.
 - **Fat Leech (CD2)**
   - This is a CD2-modified Cave Leech. It's larger and it has more HP. It also moves slower than normal Cave Leeches, but it has extreme horizontal range; it can grab you at a near 90-degree angle.
 - **Kamikaze Goo Bomber (CD2, DEA)**
   - This is a CD2-modified Goo Bomber. It's very small, glows, and it has about the health of a Swarmer. Its main objective is to die on top of the team and leave behind goo everywhere. It does not have the normal shot attack of a goo bomber. 
 - **Crawler**
   - These can spawn in waves globally independent of the Core Stone event.
-- **Gorilla**
-  - Larger version of the Crawler. These have Brundle HP.
+- **Gorilla (CD2)**
+  - Larger version of the Crawler. These have 1100 HP.
 - **Barrage Infector**
   - These are rarer than usual and are even rarer on Escort.
-- **Scalebramble**
-  - These are rarer than usual and are banned on Escort. They are time dilated to half speed. 
+- **Scalebramble (CD2)**
+  - These are rarer than usual. Only one can spawn on Escort. They are time dilated to half speed. 
 - **Warden Bomber (MEV)**
   - These are pink Goo Bombers added from MEV. These spawn 8 Mactera Spawn upon aggro and they heal them and all other types of Mactera similar to a Warden. It does not attack, it only heals.
 - **Fanatic (DEA)**
   - This is a Menace from DEA that fires the Arbalest Fireball Fan. It has equivalent HP to a Turbo Menace (100 HP).
 - **Pentajaw (DEA)**
   - This is a Trijaw from DEA that shoots two additional projectiles. It is a veteran of a Trijaw and follows VeteranLarge.
+- **Shocker (CD2)**
+  - Shockers are x3 larger and now have Crawler HP.
 
 # Custom Waves
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
@@ -102,3 +104,4 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
 - Every 60 seconds, a Pentajaw spawns.
+- Every 15 minutes, there is a 25% chance for a Big Harvester to spawn.
