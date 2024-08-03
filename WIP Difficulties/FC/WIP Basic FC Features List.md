@@ -8,7 +8,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Initial resupply cost is 40 nitra, afterwards it raises to 60 nitra.
 - Enemy projectile speed follows Hazard 6 and Hazard 7.
 - Friendly fire is set to 110%.
-- You revive with 40% HP and regen up to 40% of your HP compared to the typical 10% seen in Hazard 5 and other modded Hazards.
+- You revive with 40% HP and regen up to 40% of your HP compared to the typical 10% seen in Hazard 5 and other modded Hazards. You begin to regenerate your HP after 6 seconds if you don't take any damage. It takes 10 seconds to regenerate from 1 HP to 40% HP once the regeneration begins.
 - Dorretta resists 75% of damage; it is the same as the value used in 6x2.
 - During the Extraction phase of a mission or the PE countdown until the Drop Pod lands, x1.66 or x2 more bugs spawn respectively.
 - During the time in-between the Fuel Cells and the Drop Pod opening on a Salvage mission, there will initially be a pause in bug spawns with the amount of bugs spawning greatly increasing as the Drop Pod gets closer to opening.
