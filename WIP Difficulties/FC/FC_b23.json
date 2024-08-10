@@ -1491,7 +1491,7 @@
         "Difficulty": {
           "Mutate": "RandomChoice",
           "Choices": [
-            3,
+            4,
             0
           ],
           "Weights": [
