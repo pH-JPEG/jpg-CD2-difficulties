@@ -23,7 +23,7 @@ The main difficulties so far are:
   - *Latest update:* Alphabetized EnemyDescriptors.
 - [6x2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX.json)
   - Originally from CD1. A 6x2-based version of Lx2. Originally the more fair version of Lx2, it now serves as an entry-level difficulty for my difficulties/6x2+. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX%20Features.txt).
-  - *Latest update:* Brambles removed from SpecialEncounters and are returned to StationaryPool. Bramble TimeDilation 1->0.5. Stalkers are replaced with Beta Stalkers. Bulk SpawnSpread 16000->0 on Escort.
+  - *Latest update:* Brambles now appear shinier.
 - [Send It! Type R](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties/Send%20It!%20Type%20R)
   - Originally from CD1 and finished development in CD2. A combination of Send It! and 6x2EX. Comes with two variants. Features are listed [here](https://github.com/pH-JPEG/jpg-CD2-difficulties/tree/main/Main%20Difficulties/Send%20It!%20Type%20R).
   - *Latest update:* Brambles removed from SpecialEncounters and are returned to StationaryPool. Bramble TimeDilation 1->0.5. Stalkers are replaced with Beta Stalkers. Bulk SpawnSpread 16000->0 on Escort.
