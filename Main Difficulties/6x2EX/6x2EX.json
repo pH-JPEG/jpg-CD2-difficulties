@@ -1,6 +1,6 @@
 {
   "Name": "6x2EX",
-  "Description": "CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Brambles removed from SpecialEncounters and are returned to StationaryPool. Bramble TimeDilation 1->0.5. Stalkers are replaced with Beta Stalkers. Bulk SpawnSpread 16000->0 on Escort.",
+  "Description": "REQUIRES MORE ENEMY VARIANTS (MEV). CD2 port of 6x2EX (6x2 Extra), a 6x2-based, more fair version of Lx2. Latest change: Brambles now appear shinier.",
   "Caps": {
     "MaxActiveCritters": 40,
     "MaxActiveSwarmers": [
@@ -423,6 +423,11 @@
         }
     },
     "ED_TentaclePlant":{
+      "Materials": [
+        "M_SpaceRig_Ext_LaunchBay_Blink",
+        "",
+        "M_ShieldGen_GenGlow"
+      ],
       "TimeDilation": 0.5
     },
     "ED_TunnelSwarmer": {
