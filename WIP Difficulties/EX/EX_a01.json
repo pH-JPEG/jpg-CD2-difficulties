@@ -161,7 +161,7 @@
                   "Mutate": "EnemyCount",
                   "ED": "ED_Spider_ShieldTank"
                 },
-                ">=": 3,
+                ">=": 2,
                 "Then": 0,
                 "Else": 0.3
               }
@@ -187,7 +187,7 @@
                   "Mutate": "EnemyCount",
                   "ED": "ED_Spider_ShieldTank"
                 },
-                ">=": 3,
+                ">=": 2,
                 "Then": 0,
                 "Else": 0.3
               }
