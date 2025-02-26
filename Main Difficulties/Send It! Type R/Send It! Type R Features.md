@@ -1,4 +1,4 @@
-Send It! Type R is a combination of the two difficulties [Send It!](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Send%20It!/Send%20It!%20Features.txt) and [6x2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX%20Features.txt).
+Send It! Type R is a combination of the two difficulties [Send It!](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/Send%20It!/Send%20It!%20Features.md) and [6x2EX](https://github.com/pH-JPEG/jpg-CD2-difficulties/blob/main/Main%20Difficulties/6x2EX/6x2EX%20Features.txt).
 
 **DISCLAIMER:** Due to current CD2 limitations, Point Extraction and Escort missions are not recommended for playing. These mission types do not play correctly and are either too difficult or too trivial. All other mission types should be played instead with Mining, Egg, Salvage, and Refinery missions being the best ways to enjoy this difficulty.
 
