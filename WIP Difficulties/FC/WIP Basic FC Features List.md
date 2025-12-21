@@ -13,7 +13,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - During the Extraction phase of a mission or the PE countdown until the Drop Pod lands, x1.66 or x2 more bugs spawn respectively.
 - During the time in-between the Fuel Cells and the Drop Pod opening on a Salvage mission, there will initially be a pause in bug spawns with the amount of bugs spawning greatly increasing as the Drop Pod gets closer to opening.
 - Whenever an Egg is pulled, if it does not trigger a swarm, the wave it summons spawns x4 the bugs.
-- Wave timers are loosely based off of Hazard 7 with low chances for a swarm or wave to spawn instantly.
+- Wave timers are loosely based off of Hazard 7.
 - A "fat" wave of bugs can occasionally spawn. This is a wave that is twice the size of a typical wave.
 - Enemy diversity is higher and more variable; this means you can get multiple types of enemies all spawning at once with the amount being variable. You could get a superdiverse wave or a wave of only one or two enemy types.
 - Most caves will have at least one of every Stationary type if possible.
@@ -21,6 +21,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Many new enemies have been added in the form of enemies that normally don't spawn in waves and entirely new enemies from MEV and DEA.
 - Some existing enemies have been modified.
 - Custom waves of certain enemies spawn at set intervals or conditions.
+- All warnings and mutators are banned.
 
 # Enemies
 - **Canary**
@@ -31,26 +32,26 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - These move x2 faster. These will only move at x1.35 if a Scalebramble is on the map. However, if a Leech from high up grabs you and it's killed, you will not die of fall damage.
 - **Fire Bomber**
   - This is an unused enemy in the game files. It behaves like a normal Goo Bomber, except it drops bomblets that deal extreme damage to players.
-- **Breeder**
-  - These take x2 damage. A Breeder can sometimes respawn in a wave. Both natural and respawning Breeders also spawn white Exploders from MEV that move at x0.75 speed.
+- **Breeder (CD2)**
+  - These take x2 damage. A Breeder can sometimes respawn in a wave. Both natural and respawning Breeders also spawn white Exploders from MEV that move at x0.75 speed. These Breeders look different.
 - **Patrol Bot**
   - These spawn globally independent of Rival Presence or Industrial Sabotage.
-- **Nexus**
-  - These take x3.95 fire damage. They also spawn white Slashers from MEV that only have 66 HP.
+- **Nexus (CD2)**
+  - These take x3.95 fire damage. They also spawn white Slashers from MEV that only have 66 HP. These Nexuses look different.
 - **Sentinel Swarmer (MEV)**
-  - These are small, blue Sentinels from MEV with little HP. They still leave goo upon death. They can spawn as part of wave or from Swarmer Tunnels.
+  - These are small, blue Sentinels from MEV with little HP. They still leave goo upon death. They can spawn only from Swarmer Tunnels.
 - **White Exploder (MEV)**
   - Apart from spawning from Breeders, these also spawn from Swarmer Eggs. These also move at x0.75 speed.
 - **Exploder**
   - These move x1.5 faster.
 - **Grabber**
-  - These move x1.5 faster.
+  - These move x1.5 faster. These cannot spawn within 20 m of a player.
 - **Bulk Detonator**
-  - These move x1.5 faster. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team.
+  - These move x1.5 faster. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team. These cannot spawn within 20 m of a player.
 - **Trawler**
-  - These spawn globally in all biomes.
+  - These spawn globally in all biomes. If two or more Trawlers from the WaveSpawner are on the map, Trawlers from the WaveSpawner will stop spawning in.
 - **Oppressor**
-  - These move at x2 speed. If 2 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in.
+  - These move at x2 speed. If 2 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in. These cannot spawn within 20 m of a player.
 - **Stalker (Beta Stalkers)**
   - These are replaced with their Beta version. Set your Effects in the in-game options to High to see them while they are cloaked.
 - **Rockpox Breeder**
@@ -62,19 +63,15 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Lacerator + Arbalest (DEA)**
   - These can spawn in waves. Both have Brundle HP. They will not try to heal with each other. 
 - **Mini Bulk Detonator (MEV)**
-  - A small Bulk Detonator from MEV. Its stomp radius and explosion radius is significantly smaller than a normal Bulk's. It also shoots out less meatballs upon death. It leaves behind dirt when it dies. This also has less HP than a normal Bulk.
+  - A small Bulk Detonator from MEV. Its stomp radius and explosion radius is significantly smaller than a normal Bulk's. It also shoots out less meatballs upon death. It leaves behind dirt when it dies. This also has less HP than a normal Bulk. These cannot spawn within 20 m of a player.
 - **Korlok Sprouts (MEV)**
   - Added from MEV, Sprouts spawn as Stationaries similar to Nexuses, Leeches, Breeders, and Spitballers. These can spawn on the ground or the ceiling and start off sleeping until they take damage. These take x1.2 damage.
 - **Nukeballer (MEV)**
   - Added from MEV, this is a Spitballer that shoots a slow-moving nuke that instakills anyone in the blast radius and leaves behind a cloud of radiation. It does not carve terrain. The projectile can be shot down.
 - **Big Shredder (CD2)**
   - Possible with CD2, this is just a big Shredder that spawns alone or in a pair. It deals normal Shredder damage, but it has about x13 the HP of a normal Shredder.
-- **Big Bulk Detonator (MEV)**
-  - Added from MEV, this is a big Bulk Detonator that has its looks modified by CD2. It has more HP and has a significantly larger death explosion and carve radius. It leaves behind hot rock upon death. It also moves x1.35 faster. It is banned on Escort and during Uplink/Fuel Cells/Black Box events.
 - **Bundle (CD2)**
   - This is a big, white Brundle possible with CD2. It deals normal damage but it has the HP of a Goo Bomber.
-- **Turbonator (CD2, MEV)**
-  - This is a CD2-modified Plantonator from MEV. It is as rare as the Rockpox Breeder. It behaves like a normal Bulk but it has only around 1000 HP. Upon death, it leaves a normal Bulk crater, but it shoots out 16 meatballs that all turn into Turbo Menaces. It is banned on Escort.
 - **Fat Leech (CD2)**
   - This is a CD2-modified Cave Leech. It's larger and it has more HP. It also moves slower than normal Cave Leeches, but it has extreme horizontal range; it can grab you at a near 90-degree angle.
 - **Kamikaze Goo Bomber (CD2, DEA)**
@@ -89,12 +86,14 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - These are rarer than usual. Only one can spawn on Escort. They are time dilated to half speed. 
 - **Warden Bomber (MEV)**
   - These are pink Goo Bombers added from MEV. These spawn 8 Mactera Spawn upon aggro and they heal them and all other types of Mactera similar to a Warden. It does not attack, it only heals.
-- **Fanatic (DEA)**
-  - This is a Menace from DEA that fires the Arbalest Fireball Fan. It has equivalent HP to a Turbo Menace (100 HP).
 - **Pentajaw (DEA)**
   - This is a Trijaw from DEA that shoots two additional projectiles. It is a veteran of a Trijaw and follows VeteranLarge.
 - **Shocker (CD2)**
-  - Shockers are x3 larger and now have Crawler HP.
+  - Shockers are x3 larger and now have Crawler HP. These cannot spawn within 20 m of a player.
+- **Shellback**
+  - These cannot spawn within 20 m of a player.
+- **Youngling**
+  - These cannot spawn within 20 m of a player.
 
 # Custom Waves
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
