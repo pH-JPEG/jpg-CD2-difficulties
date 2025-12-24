@@ -69,7 +69,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Nukeballer (MEV)**
   - Added from MEV, this is a Spitballer that shoots a slow-moving nuke that instakills anyone in the blast radius and leaves behind a cloud of radiation. It does not carve terrain. The projectile can be shot down.
 - **Big Shredder (CD2)**
-  - Possible with CD2, this is just a big Shredder that spawns alone or in a pair. It deals normal Shredder damage, but it has about x13 the HP of a normal Shredder.
+  - Possible with CD2, this is just a big Shredder that spawns alone or in a pair. It deals x3 the normal damage (equivalent to a Mactera Spawn shot) and has x13 the HP.
 - **Bundle (CD2)**
   - This is a big, white Brundle possible with CD2. It deals normal damage but it has the HP of a Goo Bomber.
 - **Fat Leech (CD2)**
@@ -99,7 +99,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
 - At the start of a mission, a Canary or two spawns in. It is a big, slow swarmer with a boss HP bar. It is meant to detect desync between clients on CD2.
 - Every 5 minutes, 6 Harvesters and 6 Magma Maggots spawn spread out throughout the cave.
-- Every 45 seconds, either 20 Grunts, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
+- Every 35 seconds, either 20 Grunts, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
 - Every 60 seconds, a Pentajaw spawns.
