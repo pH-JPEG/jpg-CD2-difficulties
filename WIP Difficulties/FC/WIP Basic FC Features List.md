@@ -55,7 +55,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Stalker (Beta Stalkers)**
   - These are replaced with their Beta version. Set your Effects in the in-game options to High to see them while they are cloaked.
 - **Rockpox Breeder**
-  - These have a rare chance of spawning in a wave. These spawn and move at x0.25 speed and take x2 damage. These spawn yellow Septic Spreaders with the HP of a Webspitter.
+  - These have a rare chance of spawning in a wave. These spawn and move at x0.25 speed and take x2 damage. These spawn yellow Septic Spreaders with the HP of a Webspitter. These spawn in with an outline.
 - **Elite Grunt Guard, Elite Grunt Slasher, Elite Mactera Spawn (CD2)**
   - These spawn globally independent of Elite Threat. They have the HP of a Brundle. These have a new look and glow.
 - **Turbo Menace (MEV)**
@@ -103,4 +103,4 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
 - Every 60 seconds, a Pentajaw spawns.
-- Every 15 minutes, there is a 25% chance for a Big Harvester to spawn.
+- Every 30 minutes, there is a 25% chance for a Big Harvester to spawn.
