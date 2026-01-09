@@ -1,6 +1,6 @@
 {
   "Name": "FC_b27",
-  "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. FC, the harder version of ND created with CD2 in mind. b27: Added Gardener and Big Grabber.",
+  "Description": "REQUIRES MORE ENEMY VARIANTS (MEV) AND DEA. FC, the harder version of ND created with CD2 in mind. b27: Added Gardener and Big Grabber. Removed NoSpawnWithin from Oppressors.",
   "Warnings": {
     "Banned": [
       "MMUT_BloodSugar",
@@ -985,8 +985,7 @@
         "MaxPawnSpeed": 2,
         "MaxStrafeDistance": 2,
         "StrafeSpeed": 2
-      },
-      "NoSpawnWithin": 2000
+      }
     },
     "ED_Spider_Shooter": {
       "CanBeUsedForConstantPressure": true,

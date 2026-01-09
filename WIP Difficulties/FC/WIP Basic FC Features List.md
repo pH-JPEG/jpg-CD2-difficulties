@@ -51,7 +51,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Trawler**
   - These spawn globally in all biomes. If two or more Trawlers from the WaveSpawner are on the map, Trawlers from the WaveSpawner will stop spawning in.
 - **Oppressor**
-  - These move at x2 speed. If 2 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in. These cannot spawn within 20 m of a player.
+  - These move at x2 speed. If 2 or more Oppressors are present on the map, no more Oppressors will spawn in. During the Uplink/Fuel Cells/Black Box, if 1 or more Oppressors are present on the map, no more Oppressors will spawn in.
 - **Stalker (Beta Stalkers)**
   - These are replaced with their Beta version. Set your Effects in the in-game options to High to see them while they are cloaked.
 - **Rockpox Breeder**
