@@ -85,6 +85,9 @@
       1.9
     ],
     "EnemyDamageResistance": [
+      1.4,
+      1.5,
+      1.6,
       1.75
     ],
     "SmallEnemyDamageResistance": [
