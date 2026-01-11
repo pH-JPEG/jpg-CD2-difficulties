@@ -95,7 +95,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Youngling**
   - These cannot spawn within 20 m of a player.
 - **Gardener (CD2, DEA)**
-  - This is a Praetorian that spawns Stabber Vines. Upon aggroing onto a player, it will take 15 seconds to spawn its first Stabber Vines, afterwards it will take 10 seconds to spawn another one. Each Gardener can have 2 Stabber Vines max alive on the map. Stabber Vines have default stats (300 HP). If a Stabber Vine spawns on a wall or ceiling from the Gardener, it will be counted as dead for some reason; you can tell as it won't have a brown base. The vines themselves will still exist but they won't do anything. The Gardener takes x0.25 fire damage. It only spawns from a WaveSpawner; it does not exist in the EnemyPool. No matter what biome, the Gardener will behave like a standard Praetorian.
+  - This is a Praetorian that spawns Stabber Vines. Upon aggroing onto a player, it will take 30 seconds to spawn its first Stabber Vines, afterwards it will take 30 seconds to spawn another one. Each Gardener can have 2 Stabber Vines max alive on the map. Stabber Vines have default stats (300 HP). If a Stabber Vine spawns on a wall or ceiling from the Gardener, it will be counted as dead for some reason; you can tell as it won't have a brown base. The vines themselves will still exist but they won't do anything. The Gardener takes x0.75 fire damage. It only spawns from a WaveSpawner; it does not exist in the EnemyPool. No matter what biome, the Gardener will behave like a standard Praetorian. It moves x1.35 faster.
 - **Big Grabber (CD2)**
   - This is a big Grabber that has 1750 HP (175 more than an Oppressor) and chases players at dwarf sprint speed. It takes 648 damage to repel it (2 Grunt Guards of damage). It takes x0.5 fire damage.
 
@@ -108,4 +108,5 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
 - Every 60 seconds, a Pentajaw spawns.
 - Every 30 minutes, there is a 25% chance for a Big Harvester to spawn.
-- Every 60, 120, or 300 seconds, 1-2 Gardeners will spawn.
+- Every 4 minutes, 1-2 Gardeners will spawn.
+- Every 5 minutes, a mix of 0-2 Patrol Bots, 0-2 Spreaders, and 0-1 Stingtails spawn.
