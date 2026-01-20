@@ -33,7 +33,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Fire Bomber**
   - This is an unused enemy in the game files. It behaves like a normal Goo Bomber, except it drops bomblets that deal extreme damage to players.
 - **Breeder (CD2)**
-  - These take x2 damage. A Breeder can sometimes respawn in a wave. Both natural and respawning Breeders also spawn white Exploders from MEV that move at x0.75 speed. These Breeders look different.
+  - These take x2 damage. A Breeder can sometimes respawn in a wave. Both natural and respawning Breeders also spawn white Exploders from MEV that move at x0.50 speed. These Breeders look different.
 - **Patrol Bot**
   - These spawn globally independent of Rival Presence or Industrial Sabotage.
 - **Nexus (CD2)**
@@ -41,13 +41,13 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Sentinel Swarmer (MEV)**
   - These are small, blue Sentinels from MEV with little HP. They still leave goo upon death. They can spawn only from Swarmer Tunnels.
 - **White Exploder (MEV)**
-  - Apart from spawning from Breeders, these also spawn from Swarmer Eggs. These also move at x0.75 speed.
+  - Apart from spawning from Breeders, these also spawn from Swarmer Eggs. These also move at x0.50 speed.
 - **Exploder**
   - These move x1.5 faster.
 - **Grabber**
   - These move x1.5 faster. These cannot spawn within 20 m of a player.
 - **Bulk Detonator**
-  - These move x1.5 faster. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team. These cannot spawn within 20 m of a player.
+  - These move x1.5 faster and have x1.5 more health. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team. These cannot spawn within 20 m of a player. These take x0.75 damage from piercing, x4 damage from corrosive, and x4 damage from electric damage.
 - **Trawler**
   - These spawn globally in all biomes. If two or more Trawlers from the WaveSpawner are on the map, Trawlers from the WaveSpawner will stop spawning in.
 - **Oppressor**
@@ -57,7 +57,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Rockpox Breeder**
   - These have a rare chance of spawning in a wave. These spawn and move at x0.25 speed and take x2 damage. These spawn yellow Septic Spreaders with the HP of a Webspitter. These spawn in with an outline.
 - **Elite Grunt Guard, Elite Grunt Slasher, Elite Mactera Spawn (CD2)**
-  - These spawn globally independent of Elite Threat. They have the HP of a Brundle. These have a new look and glow.
+  - These spawn globally independent of Elite Threat. They have the HP of a Brundle. These have a new look and glow. The Elite Mactera Spawn does x0.75 damage.
 - **Turbo Menace (MEV)**
   - This is a flashy Menace from MEV. It shoots a laserbeam of projectiles, but it only has 100 HP, giving it slightly less than a Grunt.
 - **Lacerator + Arbalest (DEA)**
@@ -103,7 +103,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
 - At the start of a mission, a Canary or two spawns in. It is a big, slow swarmer with a boss HP bar. It is meant to detect desync between clients on CD2.
 - Every 5 minutes, 6 Harvesters and 6 Magma Maggots spawn spread out throughout the cave.
-- Every 35 seconds, either 20 Grunts, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
+- Every 35 seconds, either 10 Grunts, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
 - Every 60 seconds, a Pentajaw spawns.
