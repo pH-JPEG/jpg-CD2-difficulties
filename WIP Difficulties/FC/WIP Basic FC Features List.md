@@ -98,15 +98,18 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
   - This is a Praetorian that spawns Stabber Vines. Upon aggroing onto a player, it will take 30 seconds to spawn its first Stabber Vines, afterwards it will take 30 seconds to spawn another one. Each Gardener can have 2 Stabber Vines max alive on the map. Stabber Vines have default stats (300 HP). If a Stabber Vine spawns on a wall or ceiling from the Gardener, it will be counted as dead for some reason; you can tell as it won't have a brown base. The vines themselves will still exist but they won't do anything. The Gardener takes x0.75 fire damage. It only spawns from a WaveSpawner; it does not exist in the EnemyPool. No matter what biome, the Gardener will behave like a standard Praetorian. It moves x1.35 faster.
 - **Big Grabber (CD2)**
   - This is a big Grabber that has 1750 HP (175 more than an Oppressor) and chases players at dwarf sprint speed. It takes 648 damage to repel it (2 Grunt Guards of damage). It takes x0.5 fire damage.
+- **Glass Warden (CD2)**
+  - This is a Warden with equivalent health to a Septic Spreader that spawns only from a WaveSpawner; it does not exist in the EnemyPool. It takes x3 damage from cold, corrosive, explosive, fire, radiation, and poison damage. It takes x2.04 damage from melee damage.
 
 # Custom Waves
 - During a Dreadnought fight (OG Dreadnought, Hiveguard, normal Twins), a Bulk Detonator known as a "DreadHelper" will spawn in to allow the team to kill the Dreadnought faster. Only one DreadHelper can exist at a given time. The DreadHelper moves x1.5 faster.
 - At the start of a mission, a Canary or two spawns in. It is a big, slow swarmer with a boss HP bar. It is meant to detect desync between clients on CD2.
 - Every 5 minutes, 6 Harvesters and 6 Magma Maggots spawn spread out throughout the cave.
-- Every 35 seconds, either 10 Grunts, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
+- Every 30 seconds, either 8-10 Grunts with 0-1 Glass Wardens, a Bundle, or 3 Mini-Bulks spawn. Mini-Bulks from this WaveController are not allowed to spawn on Escort.
 - Every 90 seconds, a Trawler spawns.
 - Every 75 seconds, a mix of 0-2 Elite Slashers and 0-2 Elite Mactera Spawn appear.
 - Every 60 seconds, a Pentajaw spawns.
 - Every 30 minutes, there is a 25% chance for a Big Harvester to spawn.
 - Every 4 minutes, 1-2 Gardeners will spawn.
-- Every 5 minutes, a mix of 0-2 Patrol Bots, 0-2 Spreaders, and 0-1 Stingtails spawn.
+- Every 5 minutes, a mix of 0-2 Patrol Bots, 0-2 Septic Spreaders, and 0-1 Stingtails spawn.
+- During a swarm, defense objective, extraction, drillevator drilling, and waiting period for the drop pod in PE to arrive, every 10 seconds, 5 Grunts will spawn.
