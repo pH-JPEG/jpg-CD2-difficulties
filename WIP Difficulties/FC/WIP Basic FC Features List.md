@@ -48,7 +48,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Grabber**
   - These move x1.5 faster. These cannot spawn within 20 m of a player.
 - **Bulk Detonator**
-  - These move x1.5 faster and have x1.5 more health. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team. These cannot spawn within 20 m of a player. These take x0.75 damage from piercing, x4 damage from corrosive, and x4 damage from electric damage.
+  - These move x1.5 faster and have x1.5 more health. They also tend to spawn far from the team. On an Escort, they spawn at a normal distance from the team. These cannot spawn within 10 m of a player. These take x0.75 damage from piercing, x4 damage from corrosive, and x4 damage from electric damage.
 - **Trawler**
   - These spawn globally in all biomes. If two or more Trawlers from the WaveSpawner are on the map, Trawlers from the WaveSpawner will stop spawning in.
 - **Oppressor**
@@ -102,7 +102,7 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - **Glass Warden (CD2)**
   - This is a Warden with equivalent health to a Septic Spreader that spawns 4 Shards upon death. It takes x3 damage from cold, corrosive, explosive, fire, radiation, and poison damage. It takes x2.04 damage from melee damage.
 - **Shard (CD2)**
-  - This is a Trawler with 30 HP that spawns upon killing a Glass Warden. It deals x0.4 of the damage of a regular Trawler.
+  - This is a Trawler with 100 HP that spawns upon killing a Glass Warden. It deals x0.4 of the damage of a regular Trawler.
 - **Scrab**
   - These spawn in all biomes.
 - **Pitjaw**
@@ -119,3 +119,9 @@ As FC is still a WIP difficulty, this feature list may be subject to change. It 
 - Every 30 minutes, there is a 25% chance for a Big Harvester to spawn.
 - Every 2 minutes, 2 Menaces, 1 Stingtail, 3 Spreaders, or 1 Shellback spawns.
 - During a swarm, defense objective, extraction, drillevator drilling, and waiting period for the drop pod in PE to arrive, every 15 seconds, 5 Grunts will spawn.
+- 5 different WaveSpawners activate for the entirety of the Escort Heartstone fight:
+  - Every 20 seconds, either 2 Goo Bombers, 2 Fire Bombers, 1 Oppressor, 5 Praetorians, or 5 Crawlers spawn.
+  - Every 15 seconds, either 5 Acidspitters, 5 Webspitters, 5 Mactera Spawn (50% veteran chance), or 3 Septics spawn.
+  - Every 30 seconds, either 2 Menaces, 2 Grabbers, 2 Shellbacks, 2 Stingtails, or 5 Stalkers spawn.
+  - Every 45 seconds, either 1 Arbalest, 1 Lacerator, 1 Bulk, 2 Glass Wardens, or 1 Gardener spawns.
+  - Every 60 seconds, either a Breeder or Drone Breeder spawns.
