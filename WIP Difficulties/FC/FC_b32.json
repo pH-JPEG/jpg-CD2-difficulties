@@ -1,6 +1,6 @@
 {
   "Name": "FC_b32",
-  "Description": "REQUIRES MORE ENEMY VARIANTS (MEV), DEA, AND NOGASSPITPRAET. FC, the harder version of ND created with CD2 in mind. b32: Added Gardener, Breeder, Drone Breeder, and Bulks to constant pressure. Bulk NoSpawnWithin 2000->1000. Added 5 WaveSpawners that activate during the entirety of the Escort Heartstone fight. Mactera Warden FireDamageMultiplier x1->x1.20. Shard HealthRaw 30->100. Glass Warden Rarity 5.5->5, DifficultyRating 150->100.",
+  "Description": "REQUIRES MORE ENEMY VARIANTS (MEV), DEA, AND NOGASSPITPRAET. FC, the harder version of ND created with CD2 in mind. b32: Added Gardener, Breeder, Drone Breeder, and Bulks to constant pressure. Bulk NoSpawnWithin 2000->1000. Added 5 WaveSpawners that activate during the entirety of the Escort Heartstone fight. Mactera Warden FireDamageMultiplier x1->x1.20. Shard HealthRaw 30->100. Glass Warden Rarity 5.5->5, DifficultyRating 150->100. Fixed Heartstone WaveSpawners spawning random descriptors not in the difficulty.",
   "Warnings": {
     "Banned": [
       "MMUT_BloodSugar",
@@ -1817,7 +1817,6 @@
       "Base": "ED_Spider_Tank",
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": false,
-      "CustomVeterans": {},
       "DifficultyRating": 1,
       "MaxSpawnCount": 4,
       "MinSpawnCount": 1,
