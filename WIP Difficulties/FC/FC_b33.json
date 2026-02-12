@@ -987,6 +987,7 @@
       "NoSpawnWithin": {
         "Mutate": "ByMissionType",
         "Default": 1000,
+        "Escort": 3000,
         "Salvage": 2500
       },
       "Rarity": 4,
